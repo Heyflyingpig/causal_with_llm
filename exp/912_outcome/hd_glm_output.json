@@ -1,0 +1,225 @@
+[
+    {
+        "variables": [
+            "asia",
+            "tub",
+            "lung",
+            "bronc",
+            "either",
+            "xray",
+            "dysp"
+        ],
+        "confounder_hypotheses": [
+            {
+                "rank": 1,
+                "confounder_variables": [
+                    "吸烟"
+                ],
+                "reasoning": "吸烟是导致肺癌和支气管炎的最主要共同原因。烟草中的有害物质会同时损伤肺部和支气管组织，建立明确的因果关联。",
+                "causal_graph": "吸烟 -> lung; 吸烟 -> bronc"
+            },
+            {
+                "rank": 2,
+                "confounder_variables": [
+                    "空气污染"
+                ],
+                "reasoning": "长期暴露于细颗粒物(PM2.5)等空气污染物会增加肺癌风险，同时引发慢性支气管炎症反应，作为次要共同原因。",
+                "causal_graph": "空气污染 -> lung; 空气污染 -> bronc"
+            },
+            {
+                "rank": 3,
+                "confounder_variables": [
+                    "职业暴露"
+                ],
+                "reasoning": "石棉、砷等职业性致癌物会直接导致肺癌，同时这些粉尘也会刺激支气管引发炎症，属于特定人群的重要混杂因素。",
+                "causal_graph": "职业暴露 -> lung; 职业暴露 -> bronc"
+            },
+            {
+                "rank": 4,
+                "confounder_variables": [
+                    "遗传易感性"
+                ],
+                "reasoning": "某些基因变异可能同时增加个体对肺癌和支气管疾病的易感性，但作用机制不如环境因素直接。",
+                "causal_graph": "遗传易感性 -> lung; 遗传易感性 -> bronc"
+            }
+        ],
+        "id": 1
+    },
+    {
+        "variables": [
+            "asia",
+            "tub",
+            "lung",
+            "bronc",
+            "either",
+            "xray",
+            "dysp"
+        ],
+        "confounder_hypotheses": [
+            {
+                "rank": 1,
+                "confounder_variables": [
+                    "吸烟"
+                ],
+                "reasoning": "吸烟是导致肺癌和支气管炎的最主要共同风险因素。烟草中的有害化学物质会直接损伤支气管和肺部组织，同时增加癌症风险和慢性炎症。",
+                "causal_graph": "吸烟 -> 肺癌; 吸烟 -> 支气管炎"
+            },
+            {
+                "rank": 2,
+                "confounder_variables": [
+                    "空气污染"
+                ],
+                "reasoning": "长期暴露于空气污染（如PM2.5、二氧化氮等）会同时增加肺癌和支气管炎的发病风险。污染物通过呼吸道进入肺部，引起炎症反应和细胞损伤。",
+                "causal_graph": "空气污染 -> 肺癌; 空气污染 -> 支气管炎"
+            },
+            {
+                "rank": 3,
+                "confounder_variables": [
+                    "职业暴露"
+                ],
+                "reasoning": "某些职业（如矿工、建筑工人）会接触石棉、硅尘等致癌物，这些物质既可能引发肺癌，也可能导致慢性支气管炎。",
+                "causal_graph": "职业暴露 -> 肺癌; 职业暴露 -> 支气管炎"
+            },
+            {
+                "rank": 4,
+                "confounder_variables": [
+                    "遗传易感性"
+                ],
+                "reasoning": "某些基因变异可能同时增加个体对肺癌和支气管炎的易感性，影响炎症反应或DNA修复能力。",
+                "causal_graph": "遗传易感性 -> 肺癌; 遗传易感性 -> 支气管炎"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "variables": [
+            "asia",
+            "tub",
+            "lung",
+            "bronc",
+            "either",
+            "xray",
+            "dysp"
+        ],
+        "confounder_hypotheses": [
+            {
+                "rank": 1,
+                "confounder_variables": [
+                    "smoking"
+                ],
+                "reasoning": "吸烟是导致肺癌和支气管炎的最主要共同原因。烟草中的有害化学物质会损伤肺部组织，增加患肺癌的风险，同时也会导致支气管炎症。这是医学界公认的最强混淆变量。",
+                "causal_graph": "smoking -> lung; smoking -> bronc"
+            },
+            {
+                "rank": 2,
+                "confounder_variables": [
+                    "air_pollution"
+                ],
+                "reasoning": "长期暴露在空气污染中（如PM2.5、二手烟等）会同时增加肺癌和支气管炎的发病风险。虽然作用强度不如吸烟，但也是重要的共同原因。",
+                "causal_graph": "air_pollution -> lung; air_pollution -> bronc"
+            },
+            {
+                "rank": 3,
+                "confounder_variables": [
+                    "occupational_exposure"
+                ],
+                "reasoning": "某些职业暴露（如石棉、砷、铬等）会增加肺癌风险，同时这些粉尘或化学物质也会刺激支气管导致炎症。这种情况相对较少见但医学上确有依据。",
+                "causal_graph": "occupational_exposure -> lung; occupational_exposure -> bronc"
+            },
+            {
+                "rank": 4,
+                "confounder_variables": [
+                    "genetic_factors"
+                ],
+                "reasoning": "某些遗传因素可能同时增加对肺癌和支气管炎的易感性，但现有证据强度不如环境因素。主要考虑家族聚集性病例。",
+                "causal_graph": "genetic_factors -> lung; genetic_factors -> bronc"
+            }
+        ],
+        "id": 3
+    },
+    {
+        "variables": [
+            "asia",
+            "tub",
+            "lung",
+            "bronc",
+            "either",
+            "xray",
+            "dysp"
+        ],
+        "confounder_hypotheses": [
+            {
+                "rank": 1,
+                "confounder_variables": [
+                    "吸烟"
+                ],
+                "reasoning": "吸烟是肺癌和支气管炎的最主要共同原因。烟草中的有害化学物质会直接损害肺部组织，增加肺癌风险，同时也会刺激支气管黏膜，导致慢性炎症和支气管炎。流行病学研究一致表明，吸烟者中这两种疾病的发病率均显著高于非吸烟者。",
+                "causal_graph": "吸烟 -> 肺癌; 吸烟 -> 支气管炎"
+            },
+            {
+                "rank": 2,
+                "confounder_variables": [
+                    "空气污染"
+                ],
+                "reasoning": "长期暴露于高浓度空气污染物（如PM2.5、二氧化氮等）会同时增加肺癌和支气管炎的风险。这些污染物可引起肺部慢性炎症和DNA损伤，促进癌症发展，同时也会直接刺激呼吸道导致炎症。",
+                "causal_graph": "空气污染 -> 肺癌; 空气污染 -> 支气管炎"
+            },
+            {
+                "rank": 3,
+                "confounder_variables": [
+                    "职业暴露"
+                ],
+                "reasoning": "某些职业暴露（如石棉、砷、铬等）是已知的肺癌危险因素，这些物质也可能通过慢性呼吸道刺激增加支气管炎风险。虽然关联强度不如吸烟，但在特定职业人群中可能成为重要混淆因素。",
+                "causal_graph": "职业暴露 -> 肺癌; 职业暴露 -> 支气管炎"
+            }
+        ],
+        "id": 4
+    },
+    {
+        "variables": [
+            "asia",
+            "tub",
+            "lung",
+            "bronc",
+            "either",
+            "xray",
+            "dysp"
+        ],
+        "confounder_hypotheses": [
+            {
+                "rank": 1,
+                "confounder_variables": [
+                    "吸烟"
+                ],
+                "reasoning": "吸烟是导致肺癌和支气管炎的最强共同风险因素。烟草中的有害物质会直接损伤肺部组织，同时引发慢性炎症和癌变。",
+                "causal_graph": "吸烟 -> 肺癌; 吸烟 -> 支气管炎"
+            },
+            {
+                "rank": 2,
+                "confounder_variables": [
+                    "空气污染",
+                    "职业暴露"
+                ],
+                "reasoning": "长期暴露于PM2.5等空气污染物或石棉等职业危害因素，会同时增加肺癌和支气管炎的发病风险。",
+                "causal_graph": "空气污染 -> 肺癌; 空气污染 -> 支气管炎; 职业暴露 -> 肺癌; 职业暴露 -> 支气管炎"
+            },
+            {
+                "rank": 3,
+                "confounder_variables": [
+                    "遗传易感性"
+                ],
+                "reasoning": "某些基因突变（如CHRNA5基因）可能同时增加个体对烟草致癌物的敏感性和慢性炎症反应。",
+                "causal_graph": "遗传易感性 -> 肺癌; 遗传易感性 -> 支气管炎"
+            },
+            {
+                "rank": 4,
+                "confounder_variables": [
+                    "慢性阻塞性肺疾病(COPD)"
+                ],
+                "reasoning": "COPD作为共同后果可能造成反向因果，其与肺癌共享危险因素，且疾病进程可能相互促进。",
+                "causal_graph": "吸烟 -> COPD; COPD -> 肺癌; 吸烟 -> 支气管炎"
+            }
+        ],
+        "id": 5
+    }
+]
