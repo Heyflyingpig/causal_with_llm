@@ -1,0 +1,71 @@
+[
+    {
+        "variables": [
+            "X-ray Result",
+            "Dyspnea Symptom"
+        ],
+        "is_confounder": true,
+        "confounder_variables": [
+            "Pneumonia",
+            "Lung Cancer",
+            "Heart Failure",
+            "Chronic Obstructive Pulmonary Disease (COPD)",
+            "Pulmonary Embolism"
+        ],
+        "Probability": [
+            {
+                "confounder": "Pneumonia",
+                "probability": 0.05
+            },
+            {
+                "confounder": "Lung Cancer",
+                "probability": 0.02
+            },
+            {
+                "confounder": "Heart Failure",
+                "probability": 0.03
+            },
+            {
+                "confounder": "Chronic Obstructive Pulmonary Disease (COPD)",
+                "probability": 0.06
+            },
+            {
+                "confounder": "Pulmonary Embolism",
+                "probability": 0.01
+            }
+        ],
+        "confounder_hypotheses": [
+            {
+                "rank": 1,
+                "confounder": "Pneumonia",
+                "reasoning": "Pneumonia is a common infection that can cause both abnormal X-ray findings (e.g., infiltrates) and dyspnea due to impaired gas exchange.",
+                "causal_graph": "Pneumonia -> X-ray Result; Pneumonia -> Dyspnea Symptom"
+            },
+            {
+                "rank": 2,
+                "confounder": "Chronic Obstructive Pulmonary Disease (COPD)",
+                "reasoning": "COPD is a prevalent condition that often leads to dyspnea and can show hyperinflation or other abnormalities on X-ray.",
+                "causal_graph": "COPD -> X-ray Result; COPD -> Dyspnea Symptom"
+            },
+            {
+                "rank": 3,
+                "confounder": "Heart Failure",
+                "reasoning": "Heart failure can cause pulmonary edema, visible on X-ray, and dyspnea due to fluid accumulation in the lungs.",
+                "causal_graph": "Heart Failure -> X-ray Result; Heart Failure -> Dyspnea Symptom"
+            },
+            {
+                "rank": 4,
+                "confounder": "Lung Cancer",
+                "reasoning": "Lung cancer can present with masses or nodules on X-ray and dyspnea due to airway obstruction or pleural effusion.",
+                "causal_graph": "Lung Cancer -> X-ray Result; Lung Cancer -> Dyspnea Symptom"
+            },
+            {
+                "rank": 5,
+                "confounder": "Pulmonary Embolism",
+                "reasoning": "Pulmonary embolism can cause dyspnea and sometimes show abnormalities on X-ray (e.g., wedge-shaped infarcts), though less commonly.",
+                "causal_graph": "Pulmonary Embolism -> X-ray Result; Pulmonary Embolism -> Dyspnea Symptom"
+            }
+        ],
+        "id": 1
+    }
+]
