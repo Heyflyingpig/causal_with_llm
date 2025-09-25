@@ -30,7 +30,7 @@ def main():
     """
     主函数，遍历所有生成的数据文件，执行因果发现并打印结果。
     """
-    data_dir = 'llm_generated_data/'
+    data_dir = 'llm_generated_data2/'
     if not os.path.exists(data_dir):
         print(f"错误: 数据目录 '{data_dir}' 不存在。")
         return

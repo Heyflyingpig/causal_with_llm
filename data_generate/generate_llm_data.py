@@ -1,4 +1,4 @@
-## 生成llm生成数据
+## 生成llm的因果数据
 
 import json
 import os
@@ -119,8 +119,8 @@ def main():
     主函数，加载LLM输出，创建输出目录，并为每个假设生成数据。
     """
     # 定义输入文件和输出目录
-    input_json_path = 'exp/914_outcome/ez_glm_output.json'
-    output_data_dir = 'generate_data/llm_generated_data'
+    input_json_path = 'llm_exp/914_outcome/ez_glm_output_test.json'
+    output_data_dir = 'llm_generated_data2'
 
     # 如果输出目录不存在，则创建它
     if not os.path.exists(output_data_dir):
