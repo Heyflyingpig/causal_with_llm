@@ -104,17 +104,23 @@ def data_llm(*variables: str, confounder_variables: list, var_list: list , clien
     confouder_list_str = json.dumps(var_list, ensure_ascii=False, indent=2)
     
     prompt_data = f"""
-    你是一位医学领域的因果推断专家。
-    **背景**: 在一项因果推断的研究当中，我们分析了一组病人的数据，并希望得到一组数据，验证其因果性
+    你是一位严谨的因果数据科学家，擅长根据概率模型生成高质量的合成数据
+    **背景**: 我们正在研究一个因果假设，并需要你根据下面提供的概率信息，生成一个符合统计规律的合成数据集。
 
     **任务**: 
-    我们观察到了两个变量:{variables_str}的一些数据，如下所示：
-    {confouder_list_str}
-    你需要根据我们推测出的混淆隐变量以及其先验概率(Probability): {confounder_variables}，生成一组新的、包含所有对应记录的数据，这组新数据要符合这些变量与混淆变量之间的因果关系。
+    生成一个包含所有混杂隐变量需要的数据集。这个数据集必须严格反映以下变量之间的 **概率性因果关系** ，而不是确定性规则。
+    **变量与因果假设**:
+    - 观察变量: {variables_str}
+    - 隐混杂变量 : "{confounder_variables}"
+    - 观察变量对应的数据：{confouder_list_str}
+    你需要根据我们推测出的混淆隐变量以及其先验概率(Probability)。生成一组新的、包含所有对应记录的数据，这组新数据要符合这些变量与混淆变量之间的因果关系。
 
     **要求**: 
-    1. 生成的数据需要根据先验概率(Probability)生成，并且需要符合因果关系。
-    2.你必须以严格的JSON格式输出，不要包含任何JSON格式之外的解释性文字。输出要求如下：
+    **关键生成原则 (必须严格遵守)**:
+    1.  **关系是概率性的，不是确定性的**: 例如，当某一列的数据`{confounder_variables}` 为 "true" 时，`{variables}` 有 `90%` 的概率为 "Abnormal"，但仍有 `10%` 的概率为 "Normal"。你生成的数据必须能体现这种随机性。**绝对禁止**让它们100%对应！
+    2. **模拟随机抽样**: 请想象你正在进行100次独立的随机实验。在每一次实验中，你首先根据 `{confounder_variables}` 的先验概率决定其状态，然后再根据观察变量的数据决定混淆变量的数据。
+    2. 生成的数据需要根据先验概率(Probability)生成，并且需要符合因果关系。
+    3.你必须以严格的JSON格式输出，不要包含任何JSON格式之外的解释性文字。输出要求如下：
             - "variables": 一个包含输入变量的列表。
             - "confounder_variables": 一个包含混淆隐变量的列表。
             - "data": 一个包含所有数据对象的列表，每个对象包含所有相关变量（观察变量和混淆变量）的值。
@@ -137,13 +143,15 @@ def data_llm(*variables: str, confounder_variables: list, var_list: list , clien
         model="BigModel/GLM-4.5 [free]",
         messages=[
             {"role": "user", "content": prompt_data}
-        ]
+        ],
+        temperature=0.8, #提高一点
+
     )
     llm_data = response_data.choices[0].message.content
     return llm_data
 
 
-def chat_llm(client, num_runs, first_results_list, second_results_list):
+def chat_llm(client, num_runs, first_results_list, second_results_list):    
     
 
     for i in range(num_runs):
@@ -171,14 +179,14 @@ def chat_llm(client, num_runs, first_results_list, second_results_list):
             single_run_data['id'] = i + 1
             
             first_results_list.append(single_run_data)
-            print(f"第 {i + 1} 次调用成功并已记录。")
+            print(f"第 {i + 1} 次调用成功并已记录混淆变量生成。")
 
         except json.JSONDecodeError as e:
             # 如果某一次调用失败，打印错误信息并跳过，继续下一次调用
-            print(f"第 {i + 1} 次调用时解析JSON失败: {e}")
+            print(f"混淆变量生成第 {i + 1} 次调用时解析JSON失败: {e}")
             print("原始字符串:", hypotheses_str)
         except Exception as e:
-            print(f"第 {i + 1} 次调用时发生未知错误: {e}")
+            print(f"混淆变量生成第 {i + 1} 次调用时发生未知错误: {e}")
 
         
         # 第二次调用，进行数据集生成
@@ -191,10 +199,11 @@ def chat_llm(client, num_runs, first_results_list, second_results_list):
             df = pd.read_csv('data_generate/generated_cancer_dataset.csv')
             df_subset = df[['Xray', 'Dyspnoea']].head(100)
 
-            # 【优化建议】重命名列，确保与 aobserved_variables 中的名称完全一致
+            # 重命名列，确保与 aobserved_variables 中的名称完全一致
             df_subset.columns = observed_variables
 
             ## DF 语法将pd的每一行数据转换为字典，在该参数下，每一行都有键值对应
+            # var_list是已有的标准数据集
             var_list = df_subset.to_dict(orient='records')
             
             data_str = data_llm(*observed_variables, confounder_variables=confounder_variables_list, var_list=var_list, client=client)
@@ -204,10 +213,10 @@ def chat_llm(client, num_runs, first_results_list, second_results_list):
             json_run_data = json.loads(data_str)
             
             second_results_list.append(json_run_data)
-            print(f"第 {i + 1} 次调用成功并已记录。")
+            print(f"数据集生成第 {i + 1} 次调用成功并已记录数据集生成。")
 
         except Exception as e:
-            print(f"第 {i + 1} 次调用时发生未知错误: {e}")
+            print(f"数据集生成第 {i + 1} 次调用时发生未知错误: {e}")
 
 
 
