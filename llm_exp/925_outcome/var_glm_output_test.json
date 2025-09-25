@@ -7,10 +7,9 @@
         "is_confounder": true,
         "confounder_variables": [
             "Pneumonia",
-            "Lung Cancer",
-            "Heart Failure",
             "Chronic Obstructive Pulmonary Disease (COPD)",
-            "Pulmonary Embolism"
+            "Lung Cancer",
+            "Congestive Heart Failure"
         ],
         "Probability": [
             {
@@ -18,52 +17,42 @@
                 "probability": 0.05
             },
             {
-                "confounder": "Lung Cancer",
-                "probability": 0.02
-            },
-            {
-                "confounder": "Heart Failure",
+                "confounder": "Chronic Obstructive Pulmonary Disease (COPD)",
                 "probability": 0.03
             },
             {
-                "confounder": "Chronic Obstructive Pulmonary Disease (COPD)",
-                "probability": 0.06
+                "confounder": "Lung Cancer",
+                "probability": 0.01
             },
             {
-                "confounder": "Pulmonary Embolism",
-                "probability": 0.01
+                "confounder": "Congestive Heart Failure",
+                "probability": 0.02
             }
         ],
         "confounder_hypotheses": [
             {
                 "rank": 1,
                 "confounder": "Pneumonia",
-                "reasoning": "Pneumonia is a common infection that can cause both abnormal X-ray findings (e.g., infiltrates) and dyspnea due to impaired gas exchange.",
+                "reasoning": "Pneumonia is a common lung infection that can cause both abnormal X-ray results (e.g., infiltrates) and dyspnea due to impaired gas exchange. It is highly prevalent and a strong confounder.",
                 "causal_graph": "Pneumonia -> X-ray Result; Pneumonia -> Dyspnea Symptom"
             },
             {
                 "rank": 2,
                 "confounder": "Chronic Obstructive Pulmonary Disease (COPD)",
-                "reasoning": "COPD is a prevalent condition that often leads to dyspnea and can show hyperinflation or other abnormalities on X-ray.",
+                "reasoning": "COPD is a chronic condition that can lead to hyperinflation or other abnormalities on X-ray and is a major cause of dyspnea. It is common in smokers and older adults.",
                 "causal_graph": "COPD -> X-ray Result; COPD -> Dyspnea Symptom"
             },
             {
                 "rank": 3,
-                "confounder": "Heart Failure",
-                "reasoning": "Heart failure can cause pulmonary edema, visible on X-ray, and dyspnea due to fluid accumulation in the lungs.",
-                "causal_graph": "Heart Failure -> X-ray Result; Heart Failure -> Dyspnea Symptom"
-            },
-            {
-                "rank": 4,
                 "confounder": "Lung Cancer",
-                "reasoning": "Lung cancer can present with masses or nodules on X-ray and dyspnea due to airway obstruction or pleural effusion.",
+                "reasoning": "Lung tumors can be visible on X-rays and cause dyspnea due to airway obstruction or pleural effusion. Though less common, it is a critical confounder.",
                 "causal_graph": "Lung Cancer -> X-ray Result; Lung Cancer -> Dyspnea Symptom"
             },
             {
-                "rank": 5,
-                "confounder": "Pulmonary Embolism",
-                "reasoning": "Pulmonary embolism can cause dyspnea and sometimes show abnormalities on X-ray (e.g., wedge-shaped infarcts), though less commonly.",
-                "causal_graph": "Pulmonary Embolism -> X-ray Result; Pulmonary Embolism -> Dyspnea Symptom"
+                "rank": 4,
+                "confounder": "Congestive Heart Failure",
+                "reasoning": "Heart failure can cause pulmonary edema, leading to abnormal X-ray findings (e.g., pleural effusion) and dyspnea due to fluid overload. It is a common comorbidity.",
+                "causal_graph": "Congestive Heart Failure -> X-ray Result; Congestive Heart Failure -> Dyspnea Symptom"
             }
         ],
         "id": 1
