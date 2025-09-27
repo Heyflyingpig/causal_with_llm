@@ -1,0 +1,228 @@
+[
+    {
+        "variables": [
+            "X-ray Result",
+            "Dyspnea Symptom"
+        ],
+        "is_confounder": true,
+        "confounder_variables": [
+            "Pneumonia",
+            "Congestive Heart Failure",
+            "Chronic Obstructive Pulmonary Disease (COPD)",
+            "Lung Cancer",
+            "Pulmonary Embolism"
+        ],
+        "Probability": [
+            {
+                "confounder": "Pneumonia",
+                "probability": 0.05
+            },
+            {
+                "confounder": "Congestive Heart Failure",
+                "probability": 0.02
+            },
+            {
+                "confounder": "Chronic Obstructive Pulmonary Disease (COPD)",
+                "probability": 0.03
+            },
+            {
+                "confounder": "Lung Cancer",
+                "probability": 0.005
+            },
+            {
+                "confounder": "Pulmonary Embolism",
+                "probability": 0.001
+            }
+        ],
+        "confounder_hypotheses": [
+            {
+                "rank": 1,
+                "confounder": "Pneumonia",
+                "reasoning": "Pneumonia is a common infection that can cause both abnormal X-ray findings (e.g., infiltrates) and dyspnea due to lung inflammation and fluid buildup.",
+                "causal_graph": "Pneumonia -> X-ray Result; Pneumonia -> Dyspnea Symptom"
+            },
+            {
+                "rank": 2,
+                "confounder": "Congestive Heart Failure",
+                "reasoning": "CHF can lead to pulmonary edema, which is visible on X-rays and causes dyspnea due to fluid accumulation in the lungs.",
+                "causal_graph": "Congestive Heart Failure -> X-ray Result; Congestive Heart Failure -> Dyspnea Symptom"
+            },
+            {
+                "rank": 3,
+                "confounder": "Chronic Obstructive Pulmonary Disease (COPD)",
+                "reasoning": "COPD can cause hyperinflation and other changes visible on X-rays and is a major cause of chronic dyspnea due to airway obstruction.",
+                "causal_graph": "COPD -> X-ray Result; COPD -> Dyspnea Symptom"
+            },
+            {
+                "rank": 4,
+                "confounder": "Lung Cancer",
+                "reasoning": "Lung cancer can present as masses or nodules on X-rays and cause dyspnea due to airway obstruction or pleural effusion.",
+                "causal_graph": "Lung Cancer -> X-ray Result; Lung Cancer -> Dyspnea Symptom"
+            },
+            {
+                "rank": 5,
+                "confounder": "Pulmonary Embolism",
+                "reasoning": "PE can cause dyspnea and sometimes visible findings on X-rays (e.g., wedge-shaped infarcts or effusions), though X-ray is less sensitive for PE.",
+                "causal_graph": "Pulmonary Embolism -> X-ray Result; Pulmonary Embolism -> Dyspnea Symptom"
+            }
+        ],
+        "conditional_probabilities": [
+            {
+                "confounder": "Pneumonia",
+                "probabilities": [
+                    {
+                        "observed_variable": "X-ray Result",
+                        "cpt": {
+                            "when_confounder_true": {
+                                "Abnormal": 0.9,
+                                "Normal": 0.1
+                            },
+                            "when_confounder_false": {
+                                "Abnormal": 0.1,
+                                "Normal": 0.9
+                            }
+                        }
+                    },
+                    {
+                        "observed_variable": "Dyspnea Symptom",
+                        "cpt": {
+                            "when_confounder_true": {
+                                "Yes": 0.8,
+                                "No": 0.2
+                            },
+                            "when_confounder_false": {
+                                "Yes": 0.1,
+                                "No": 0.9
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "confounder": "Congestive Heart Failure",
+                "probabilities": [
+                    {
+                        "observed_variable": "X-ray Result",
+                        "cpt": {
+                            "when_confounder_true": {
+                                "Abnormal": 0.85,
+                                "Normal": 0.15
+                            },
+                            "when_confounder_false": {
+                                "Abnormal": 0.1,
+                                "Normal": 0.9
+                            }
+                        }
+                    },
+                    {
+                        "observed_variable": "Dyspnea Symptom",
+                        "cpt": {
+                            "when_confounder_true": {
+                                "Yes": 0.75,
+                                "No": 0.25
+                            },
+                            "when_confounder_false": {
+                                "Yes": 0.1,
+                                "No": 0.9
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "confounder": "Chronic Obstructive Pulmonary Disease (COPD)",
+                "probabilities": [
+                    {
+                        "observed_variable": "X-ray Result",
+                        "cpt": {
+                            "when_confounder_true": {
+                                "Abnormal": 0.7,
+                                "Normal": 0.3
+                            },
+                            "when_confounder_false": {
+                                "Abnormal": 0.1,
+                                "Normal": 0.9
+                            }
+                        }
+                    },
+                    {
+                        "observed_variable": "Dyspnea Symptom",
+                        "cpt": {
+                            "when_confounder_true": {
+                                "Yes": 0.9,
+                                "No": 0.1
+                            },
+                            "when_confounder_false": {
+                                "Yes": 0.1,
+                                "No": 0.9
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "confounder": "Lung Cancer",
+                "probabilities": [
+                    {
+                        "observed_variable": "X-ray Result",
+                        "cpt": {
+                            "when_confounder_true": {
+                                "Abnormal": 0.95,
+                                "Normal": 0.05
+                            },
+                            "when_confounder_false": {
+                                "Abnormal": 0.1,
+                                "Normal": 0.9
+                            }
+                        }
+                    },
+                    {
+                        "observed_variable": "Dyspnea Symptom",
+                        "cpt": {
+                            "when_confounder_true": {
+                                "Yes": 0.6,
+                                "No": 0.4
+                            },
+                            "when_confounder_false": {
+                                "Yes": 0.1,
+                                "No": 0.9
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "confounder": "Pulmonary Embolism",
+                "probabilities": [
+                    {
+                        "observed_variable": "X-ray Result",
+                        "cpt": {
+                            "when_confounder_true": {
+                                "Abnormal": 0.4,
+                                "Normal": 0.6
+                            },
+                            "when_confounder_false": {
+                                "Abnormal": 0.1,
+                                "Normal": 0.9
+                            }
+                        }
+                    },
+                    {
+                        "observed_variable": "Dyspnea Symptom",
+                        "cpt": {
+                            "when_confounder_true": {
+                                "Yes": 0.95,
+                                "No": 0.05
+                            },
+                            "when_confounder_false": {
+                                "Yes": 0.1,
+                                "No": 0.9
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "id": 1
+    }
+]
