@@ -1,0 +1,49 @@
+[
+    {
+        "variables": [
+            "X-ray Result",
+            "Dyspnea Symptom"
+        ],
+        "is_confounder": true,
+        "confounder_variables": [
+            "肺炎",
+            "慢性阻塞性肺疾病（COPD）",
+            "心力衰竭"
+        ],
+        "Probability": [
+            {
+                "confounder": "肺炎",
+                "probability": 0.02
+            },
+            {
+                "confounder": "慢性阻塞性肺疾病（COPD）",
+                "probability": 0.03
+            },
+            {
+                "confounder": "心力衰竭",
+                "probability": 0.02
+            }
+        ],
+        "confounder_hypotheses": [
+            {
+                "rank": 1,
+                "confounder": "肺炎",
+                "reasoning": "肺炎是常见感染性疾病，直接导致呼吸困难症状（由于肺部炎症和氧气交换障碍）和X光上的肺部浸润或阴影，是最可能的共同原因。",
+                "causal_graph": "肺炎 -> Dyspnea Symptom; 肺炎 -> X-ray Result"
+            },
+            {
+                "rank": 2,
+                "confounder": "慢性阻塞性肺疾病（COPD）",
+                "reasoning": "COPD（包括肺气肿）导致慢性呼吸困难（由于气道阻塞和肺过度充气），X光常显示肺过度充气、肺纹理减少或肺气肿表现，是第二常见原因。",
+                "causal_graph": "慢性阻塞性肺疾病（COPD） -> Dyspnea Symptom; 慢性阻塞性肺疾病（COPD） -> X-ray Result"
+            },
+            {
+                "rank": 3,
+                "confounder": "心力衰竭",
+                "reasoning": "心力衰竭引起肺水肿导致呼吸困难（由于液体在肺部积聚），X光显示心脏增大、肺水肿或胸腔积液，是第三可能原因，尤其在老年人群中。",
+                "causal_graph": "心力衰竭 -> Dyspnea Symptom; 心力衰竭 -> X-ray Result"
+            }
+        ],
+        "id": 1
+    }
+]

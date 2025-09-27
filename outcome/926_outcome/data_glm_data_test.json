@@ -1,0 +1,1213 @@
+[
+    {
+        "variables": [
+            "X-ray Result",
+            "Dyspnea Symptom"
+        ],
+        "confounder_variables": [
+            "肺炎"
+        ],
+        "data": [
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "0"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "1"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "2"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "3"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "4"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "5"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "6"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "7"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "8"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "9"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "10"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "11"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "12"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "13"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "14"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "15"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "16"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "17"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "18"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "19"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "20"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "21"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "22"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "23"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "24"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "25"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "26"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "27"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "28"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "29"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "30"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "31"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "32"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "33"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "34"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "35"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "36"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "37"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "38"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "39"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "40"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "41"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "42"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "43"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "44"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "45"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "46"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "47"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "48"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "49"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "50"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "51"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "52"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "53"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "54"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "55"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "56"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "57"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "58"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "59"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "60"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "61"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "62"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "63"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "64"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "65"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "66"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "67"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "68"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "69"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "70"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "71"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "72"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "73"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "74"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "75"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "76"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "77"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "78"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "79"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "80"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "81"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "82"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "83"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "84"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "85"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "86"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "87"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "88"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "89"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "90"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "91"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "92"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "93"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "94"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "95"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "96"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "97"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "98"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "99"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "100"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "101"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "102"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "103"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "104"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "105"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "106"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "107"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "108"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "109"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "110"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "111"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "112"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "113"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "114"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "115"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "116"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "117"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "118"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "119"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "120"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "121"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "122"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "123"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "124"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "125"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "126"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "127"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "128"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "129"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "130"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "131"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "132"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "133"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "134"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "135"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "136"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "137"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "138"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "139"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "140"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "141"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "142"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "143"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "144"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "145"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "146"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "147"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "148"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "149"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "150"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "151"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "152"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "153"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "154"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "155"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "156"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "157"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "158"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "159"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "160"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "161"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "162"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "163"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "164"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "165"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "166"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "167"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "168"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "169"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "170"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "171"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "172"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "173"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "174"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "175"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "176"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "177"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "178"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "179"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "180"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "181"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "182"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "183"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "184"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "185"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "186"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "187"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "188"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "189"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "190"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "191"
+            },
+            {
+                "X-ray Result": "positive",
+                "Dyspnea Symptom": true,
+                "肺炎": true,
+                "id": "192"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "193"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "194"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "195"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "196"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "197"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": true,
+                "肺炎": false,
+                "id": "198"
+            },
+            {
+                "X-ray Result": "negative",
+                "Dyspnea Symptom": false,
+                "肺炎": false,
+                "id": "199"
+            }
+        ]
+    }
+]
