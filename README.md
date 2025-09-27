@@ -9,11 +9,23 @@
 
 ## 项目结构
 ```text
-├── data/                           # 数据集存放位置
 ├── exp/                            # 实验代码存放位置
-│   ├── 912_outcome/                # 9.12实验结果存放位置
-│   ├── 914_outcome/                # 9.14实验结果存放位置
-│   ├── 925_outcome/                # 9.25实验结果存放位置
+│   ├── 0912exp/                    # 9.12实验
+│   ├── 0914exp/                    # 9.14实验
+│   └── 0926exp/                    # 9.26实验
+├── oringnal_data/                  # 原始数据集存放位置
+│   ├── bnlearn/
+│   ├── bnlearn_generate/
+│   └── var_bnlearn/
+├── outcome/                        # 实验结果存放位置
+│   ├── 912_outcome/
+│   ├── 914_outcome/
+│   ├── 925_outcome/
+│   └── 926_outcome/
+├── report/                         # 报告和prompt存放位置
+│   ├── prompt/
+│   └── report/
+└── README.md                       # 项目说明
 ```
 
 
