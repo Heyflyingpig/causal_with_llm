@@ -1,0 +1,1013 @@
+[
+    {
+        "variables": [
+            "c-Jun N-terminal kinase",
+            "p38 mitogen-activated protein kinases"
+        ],
+        "confounder_variables": [
+            "Inflammatory Response"
+        ],
+        "data": [
+            {
+                "c-Jun N-terminal kinase": 44.9,
+                "p38 mitogen-activated protein kinases": 40.0,
+                "Inflammatory Response": {
+                    "mu": 42.45,
+                    "sigma": 15.23
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 0
+            },
+            {
+                "c-Jun N-terminal kinase": 16.5,
+                "p38 mitogen-activated protein kinases": 61.5,
+                "Inflammatory Response": {
+                    "mu": 39.0,
+                    "sigma": 22.5
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 1
+            },
+            {
+                "c-Jun N-terminal kinase": 31.9,
+                "p38 mitogen-activated protein kinases": 19.5,
+                "Inflammatory Response": {
+                    "mu": 25.7,
+                    "sigma": 6.2
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 2
+            },
+            {
+                "c-Jun N-terminal kinase": 28.6,
+                "p38 mitogen-activated protein kinases": 23.1,
+                "Inflammatory Response": {
+                    "mu": 25.85,
+                    "sigma": 2.75
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 3
+            },
+            {
+                "c-Jun N-terminal kinase": 25.7,
+                "p38 mitogen-activated protein kinases": 81.3,
+                "Inflammatory Response": {
+                    "mu": 53.5,
+                    "sigma": 27.8
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 4
+            },
+            {
+                "c-Jun N-terminal kinase": 49.1,
+                "p38 mitogen-activated protein kinases": 57.8,
+                "Inflammatory Response": {
+                    "mu": 53.45,
+                    "sigma": 4.35
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 5
+            },
+            {
+                "c-Jun N-terminal kinase": 35.9,
+                "p38 mitogen-activated protein kinases": 18.1,
+                "Inflammatory Response": {
+                    "mu": 27.0,
+                    "sigma": 8.9
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 6
+            },
+            {
+                "c-Jun N-terminal kinase": 24.4,
+                "p38 mitogen-activated protein kinases": 20.0,
+                "Inflammatory Response": {
+                    "mu": 22.2,
+                    "sigma": 2.2
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 7
+            },
+            {
+                "c-Jun N-terminal kinase": 61.0,
+                "p38 mitogen-activated protein kinases": 25.3,
+                "Inflammatory Response": {
+                    "mu": 43.15,
+                    "sigma": 17.85
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 8
+            },
+            {
+                "c-Jun N-terminal kinase": 26.7,
+                "p38 mitogen-activated protein kinases": 101.0,
+                "Inflammatory Response": {
+                    "mu": 63.85,
+                    "sigma": 37.15
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 9
+            },
+            {
+                "c-Jun N-terminal kinase": 44.9,
+                "p38 mitogen-activated protein kinases": 24.1,
+                "Inflammatory Response": {
+                    "mu": 34.5,
+                    "sigma": 10.4
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 10
+            },
+            {
+                "c-Jun N-terminal kinase": 71.0,
+                "p38 mitogen-activated protein kinases": 35.5,
+                "Inflammatory Response": {
+                    "mu": 53.25,
+                    "sigma": 17.75
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 11
+            },
+            {
+                "c-Jun N-terminal kinase": 44.1,
+                "p38 mitogen-activated protein kinases": 118.0,
+                "Inflammatory Response": {
+                    "mu": 81.05,
+                    "sigma": 36.95
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 12
+            },
+            {
+                "c-Jun N-terminal kinase": 41.4,
+                "p38 mitogen-activated protein kinases": 151.0,
+                "Inflammatory Response": {
+                    "mu": 96.2,
+                    "sigma": 54.8
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 13
+            },
+            {
+                "c-Jun N-terminal kinase": 19.1,
+                "p38 mitogen-activated protein kinases": 7.91,
+                "Inflammatory Response": {
+                    "mu": 13.505,
+                    "sigma": 5.595
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 14
+            },
+            {
+                "c-Jun N-terminal kinase": 77.0,
+                "p38 mitogen-activated protein kinases": 1.0,
+                "Inflammatory Response": {
+                    "mu": 39.0,
+                    "sigma": 38.0
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 15
+            },
+            {
+                "c-Jun N-terminal kinase": 65.5,
+                "p38 mitogen-activated protein kinases": 1.42,
+                "Inflammatory Response": {
+                    "mu": 33.46,
+                    "sigma": 32.04
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 16
+            },
+            {
+                "c-Jun N-terminal kinase": 30.8,
+                "p38 mitogen-activated protein kinases": 7.64,
+                "Inflammatory Response": {
+                    "mu": 19.22,
+                    "sigma": 11.58
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 17
+            },
+            {
+                "c-Jun N-terminal kinase": 37.2,
+                "p38 mitogen-activated protein kinases": 17.2,
+                "Inflammatory Response": {
+                    "mu": 27.2,
+                    "sigma": 10.0
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 18
+            },
+            {
+                "c-Jun N-terminal kinase": 27.4,
+                "p38 mitogen-activated protein kinases": 22.1,
+                "Inflammatory Response": {
+                    "mu": 24.75,
+                    "sigma": 2.65
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 19
+            },
+            {
+                "c-Jun N-terminal kinase": 28.4,
+                "p38 mitogen-activated protein kinases": 20.9,
+                "Inflammatory Response": {
+                    "mu": 24.65,
+                    "sigma": 3.75
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 20
+            },
+            {
+                "c-Jun N-terminal kinase": 28.4,
+                "p38 mitogen-activated protein kinases": 12.7,
+                "Inflammatory Response": {
+                    "mu": 20.55,
+                    "sigma": 7.85
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 21
+            },
+            {
+                "c-Jun N-terminal kinase": 84.3,
+                "p38 mitogen-activated protein kinases": 4.61,
+                "Inflammatory Response": {
+                    "mu": 44.455,
+                    "sigma": 39.845
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 22
+            },
+            {
+                "c-Jun N-terminal kinase": 93.9,
+                "p38 mitogen-activated protein kinases": 48.3,
+                "Inflammatory Response": {
+                    "mu": 71.1,
+                    "sigma": 22.8
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 23
+            },
+            {
+                "c-Jun N-terminal kinase": 46.1,
+                "p38 mitogen-activated protein kinases": 17.8,
+                "Inflammatory Response": {
+                    "mu": 31.95,
+                    "sigma": 14.15
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 24
+            },
+            {
+                "c-Jun N-terminal kinase": 29.2,
+                "p38 mitogen-activated protein kinases": 7.04,
+                "Inflammatory Response": {
+                    "mu": 18.12,
+                    "sigma": 11.08
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 25
+            },
+            {
+                "c-Jun N-terminal kinase": 23.3,
+                "p38 mitogen-activated protein kinases": 6.98,
+                "Inflammatory Response": {
+                    "mu": 15.14,
+                    "sigma": 8.16
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 26
+            },
+            {
+                "c-Jun N-terminal kinase": 48.3,
+                "p38 mitogen-activated protein kinases": 59.4,
+                "Inflammatory Response": {
+                    "mu": 53.85,
+                    "sigma": 5.55
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 27
+            },
+            {
+                "c-Jun N-terminal kinase": 38.9,
+                "p38 mitogen-activated protein kinases": 196.0,
+                "Inflammatory Response": {
+                    "mu": 117.45,
+                    "sigma": 78.55
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 28
+            },
+            {
+                "c-Jun N-terminal kinase": 41.8,
+                "p38 mitogen-activated protein kinases": 23.1,
+                "Inflammatory Response": {
+                    "mu": 32.45,
+                    "sigma": 9.35
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 29
+            },
+            {
+                "c-Jun N-terminal kinase": 38.5,
+                "p38 mitogen-activated protein kinases": 20.9,
+                "Inflammatory Response": {
+                    "mu": 29.7,
+                    "sigma": 8.8
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 30
+            },
+            {
+                "c-Jun N-terminal kinase": 67.9,
+                "p38 mitogen-activated protein kinases": 28.1,
+                "Inflammatory Response": {
+                    "mu": 48.0,
+                    "sigma": 19.9
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 31
+            },
+            {
+                "c-Jun N-terminal kinase": 40.3,
+                "p38 mitogen-activated protein kinases": 15.3,
+                "Inflammatory Response": {
+                    "mu": 27.8,
+                    "sigma": 12.5
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 32
+            },
+            {
+                "c-Jun N-terminal kinase": 59.9,
+                "p38 mitogen-activated protein kinases": 17.9,
+                "Inflammatory Response": {
+                    "mu": 38.9,
+                    "sigma": 21.0
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 33
+            },
+            {
+                "c-Jun N-terminal kinase": 31.9,
+                "p38 mitogen-activated protein kinases": 20.7,
+                "Inflammatory Response": {
+                    "mu": 26.3,
+                    "sigma": 5.6
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 34
+            },
+            {
+                "c-Jun N-terminal kinase": 38.5,
+                "p38 mitogen-activated protein kinases": 20.9,
+                "Inflammatory Response": {
+                    "mu": 29.7,
+                    "sigma": 8.8
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 35
+            },
+            {
+                "c-Jun N-terminal kinase": 28.9,
+                "p38 mitogen-activated protein kinases": 12.6,
+                "Inflammatory Response": {
+                    "mu": 20.75,
+                    "sigma": 8.15
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 36
+            },
+            {
+                "c-Jun N-terminal kinase": 31.3,
+                "p38 mitogen-activated protein kinases": 83.5,
+                "Inflammatory Response": {
+                    "mu": 57.4,
+                    "sigma": 26.1
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 37
+            },
+            {
+                "c-Jun N-terminal kinase": 80.6,
+                "p38 mitogen-activated protein kinases": 139.0,
+                "Inflammatory Response": {
+                    "mu": 109.8,
+                    "sigma": 29.2
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 38
+            },
+            {
+                "c-Jun N-terminal kinase": 23.7,
+                "p38 mitogen-activated protein kinases": 13.5,
+                "Inflammatory Response": {
+                    "mu": 18.6,
+                    "sigma": 5.1
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 39
+            },
+            {
+                "c-Jun N-terminal kinase": 8.98,
+                "p38 mitogen-activated protein kinases": 43.3,
+                "Inflammatory Response": {
+                    "mu": 26.14,
+                    "sigma": 17.16
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 40
+            },
+            {
+                "c-Jun N-terminal kinase": 37.9,
+                "p38 mitogen-activated protein kinases": 17.8,
+                "Inflammatory Response": {
+                    "mu": 27.85,
+                    "sigma": 10.05
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 41
+            },
+            {
+                "c-Jun N-terminal kinase": 40.3,
+                "p38 mitogen-activated protein kinases": 221.0,
+                "Inflammatory Response": {
+                    "mu": 130.65,
+                    "sigma": 90.35
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 42
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 7.7,
+                "Inflammatory Response": {
+                    "mu": 13.85,
+                    "sigma": 6.15
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 43
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 105.0,
+                "Inflammatory Response": {
+                    "mu": 62.5,
+                    "sigma": 42.5
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 44
+            },
+            {
+                "c-Jun N-terminal kinase": 48.7,
+                "p38 mitogen-activated protein kinases": 22.5,
+                "Inflammatory Response": {
+                    "mu": 35.6,
+                    "sigma": 13.1
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 45
+            },
+            {
+                "c-Jun N-terminal kinase": 66.7,
+                "p38 mitogen-activated protein kinases": 40.0,
+                "Inflammatory Response": {
+                    "mu": 53.35,
+                    "sigma": 13.35
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 46
+            },
+            {
+                "c-Jun N-terminal kinase": 46.1,
+                "p38 mitogen-activated protein kinases": 17.0,
+                "Inflammatory Response": {
+                    "mu": 31.55,
+                    "sigma": 14.55
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 47
+            },
+            {
+                "c-Jun N-terminal kinase": 32.8,
+                "p38 mitogen-activated protein kinases": 108.0,
+                "Inflammatory Response": {
+                    "mu": 70.4,
+                    "sigma": 37.6
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 48
+            },
+            {
+                "c-Jun N-terminal kinase": 34.9,
+                "p38 mitogen-activated protein kinases": 6.15,
+                "Inflammatory Response": {
+                    "mu": 20.525,
+                    "sigma": 14.375
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 49
+            },
+            {
+                "c-Jun N-terminal kinase": 22.7,
+                "p38 mitogen-activated protein kinases": 11.7,
+                "Inflammatory Response": {
+                    "mu": 17.2,
+                    "sigma": 5.5
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 50
+            },
+            {
+                "c-Jun N-terminal kinase": 26.9,
+                "p38 mitogen-activated protein kinases": 173.0,
+                "Inflammatory Response": {
+                    "mu": 99.95,
+                    "sigma": 73.05
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 51
+            },
+            {
+                "c-Jun N-terminal kinase": 43.7,
+                "p38 mitogen-activated protein kinases": 10.1,
+                "Inflammatory Response": {
+                    "mu": 26.9,
+                    "sigma": 16.8
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 52
+            },
+            {
+                "c-Jun N-terminal kinase": 32.5,
+                "p38 mitogen-activated protein kinases": 10.5,
+                "Inflammatory Response": {
+                    "mu": 21.5,
+                    "sigma": 11.0
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 53
+            },
+            {
+                "c-Jun N-terminal kinase": 38.2,
+                "p38 mitogen-activated protein kinases": 17.6,
+                "Inflammatory Response": {
+                    "mu": 27.9,
+                    "sigma": 10.3
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 54
+            },
+            {
+                "c-Jun N-terminal kinase": 121.0,
+                "p38 mitogen-activated protein kinases": 32.5,
+                "Inflammatory Response": {
+                    "mu": 76.75,
+                    "sigma": 44.25
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 55
+            },
+            {
+                "c-Jun N-terminal kinase": 80.6,
+                "p38 mitogen-activated protein kinases": 71.7,
+                "Inflammatory Response": {
+                    "mu": 76.15,
+                    "sigma": 4.45
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 56
+            },
+            {
+                "c-Jun N-terminal kinase": 16.7,
+                "p38 mitogen-activated protein kinases": 95.6,
+                "Inflammatory Response": {
+                    "mu": 56.15,
+                    "sigma": 39.45
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 57
+            },
+            {
+                "c-Jun N-terminal kinase": 23.3,
+                "p38 mitogen-activated protein kinases": 11.9,
+                "Inflammatory Response": {
+                    "mu": 17.6,
+                    "sigma": 5.7
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 58
+            },
+            {
+                "c-Jun N-terminal kinase": 33.1,
+                "p38 mitogen-activated protein kinases": 17.5,
+                "Inflammatory Response": {
+                    "mu": 25.3,
+                    "sigma": 7.8
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 59
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 9.39,
+                "Inflammatory Response": {
+                    "mu": 14.695,
+                    "sigma": 5.305
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 60
+            },
+            {
+                "c-Jun N-terminal kinase": 42.2,
+                "p38 mitogen-activated protein kinases": 20.7,
+                "Inflammatory Response": {
+                    "mu": 31.45,
+                    "sigma": 10.75
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 61
+            },
+            {
+                "c-Jun N-terminal kinase": 47.4,
+                "p38 mitogen-activated protein kinases": 9.47,
+                "Inflammatory Response": {
+                    "mu": 28.435,
+                    "sigma": 18.965
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 62
+            },
+            {
+                "c-Jun N-terminal kinase": 59.9,
+                "p38 mitogen-activated protein kinases": 80.6,
+                "Inflammatory Response": {
+                    "mu": 70.25,
+                    "sigma": 10.35
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 63
+            },
+            {
+                "c-Jun N-terminal kinase": 35.5,
+                "p38 mitogen-activated protein kinases": 12.4,
+                "Inflammatory Response": {
+                    "mu": 23.95,
+                    "sigma": 11.55
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 64
+            },
+            {
+                "c-Jun N-terminal kinase": 27.1,
+                "p38 mitogen-activated protein kinases": 78.4,
+                "Inflammatory Response": {
+                    "mu": 52.75,
+                    "sigma": 25.65
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 65
+            },
+            {
+                "c-Jun N-terminal kinase": 42.9,
+                "p38 mitogen-activated protein kinases": 80.6,
+                "Inflammatory Response": {
+                    "mu": 61.75,
+                    "sigma": 18.85
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 66
+            },
+            {
+                "c-Jun N-terminal kinase": 7.37,
+                "p38 mitogen-activated protein kinases": 3.43,
+                "Inflammatory Response": {
+                    "mu": 5.4,
+                    "sigma": 1.97
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 67
+            },
+            {
+                "c-Jun N-terminal kinase": 14.9,
+                "p38 mitogen-activated protein kinases": 64.9,
+                "Inflammatory Response": {
+                    "mu": 39.9,
+                    "sigma": 25.0
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 68
+            },
+            {
+                "c-Jun N-terminal kinase": 24.4,
+                "p38 mitogen-activated protein kinases": 15.4,
+                "Inflammatory Response": {
+                    "mu": 19.9,
+                    "sigma": 4.5
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 69
+            },
+            {
+                "c-Jun N-terminal kinase": 39.6,
+                "p38 mitogen-activated protein kinases": 75.7,
+                "Inflammatory Response": {
+                    "mu": 57.65,
+                    "sigma": 18.05
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 70
+            },
+            {
+                "c-Jun N-terminal kinase": 22.3,
+                "p38 mitogen-activated protein kinases": 6.67,
+                "Inflammatory Response": {
+                    "mu": 14.485,
+                    "sigma": 7.815
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 71
+            },
+            {
+                "c-Jun N-terminal kinase": 19.8,
+                "p38 mitogen-activated protein kinases": 10.4,
+                "Inflammatory Response": {
+                    "mu": 15.1,
+                    "sigma": 4.7
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 72
+            },
+            {
+                "c-Jun N-terminal kinase": 31.1,
+                "p38 mitogen-activated protein kinases": 27.6,
+                "Inflammatory Response": {
+                    "mu": 29.35,
+                    "sigma": 1.75
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 73
+            },
+            {
+                "c-Jun N-terminal kinase": 47.8,
+                "p38 mitogen-activated protein kinases": 16.4,
+                "Inflammatory Response": {
+                    "mu": 32.1,
+                    "sigma": 15.7
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 74
+            },
+            {
+                "c-Jun N-terminal kinase": 48.3,
+                "p38 mitogen-activated protein kinases": 4.66,
+                "Inflammatory Response": {
+                    "mu": 26.48,
+                    "sigma": 21.82
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 75
+            },
+            {
+                "c-Jun N-terminal kinase": 25.0,
+                "p38 mitogen-activated protein kinases": 91.4,
+                "Inflammatory Response": {
+                    "mu": 58.2,
+                    "sigma": 33.2
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 76
+            },
+            {
+                "c-Jun N-terminal kinase": 31.1,
+                "p38 mitogen-activated protein kinases": 7.64,
+                "Inflammatory Response": {
+                    "mu": 19.37,
+                    "sigma": 11.73
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 77
+            },
+            {
+                "c-Jun N-terminal kinase": 22.7,
+                "p38 mitogen-activated protein kinases": 6.85,
+                "Inflammatory Response": {
+                    "mu": 14.775,
+                    "sigma": 7.925
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 78
+            },
+            {
+                "c-Jun N-terminal kinase": 43.3,
+                "p38 mitogen-activated protein kinases": 20.0,
+                "Inflammatory Response": {
+                    "mu": 31.65,
+                    "sigma": 11.65
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 79
+            },
+            {
+                "c-Jun N-terminal kinase": 29.4,
+                "p38 mitogen-activated protein kinases": 16.8,
+                "Inflammatory Response": {
+                    "mu": 23.1,
+                    "sigma": 6.3
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 80
+            },
+            {
+                "c-Jun N-terminal kinase": 31.3,
+                "p38 mitogen-activated protein kinases": 12.0,
+                "Inflammatory Response": {
+                    "mu": 21.65,
+                    "sigma": 9.65
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 81
+            },
+            {
+                "c-Jun N-terminal kinase": 39.2,
+                "p38 mitogen-activated protein kinases": 15.7,
+                "Inflammatory Response": {
+                    "mu": 27.45,
+                    "sigma": 11.75
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 82
+            },
+            {
+                "c-Jun N-terminal kinase": 68.5,
+                "p38 mitogen-activated protein kinases": 8.2,
+                "Inflammatory Response": {
+                    "mu": 38.35,
+                    "sigma": 30.15
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 83
+            },
+            {
+                "c-Jun N-terminal kinase": 6.98,
+                "p38 mitogen-activated protein kinases": 71.0,
+                "Inflammatory Response": {
+                    "mu": 38.99,
+                    "sigma": 32.01
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 84
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 7.91,
+                "Inflammatory Response": {
+                    "mu": 13.955,
+                    "sigma": 6.045
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 85
+            },
+            {
+                "c-Jun N-terminal kinase": 12.0,
+                "p38 mitogen-activated protein kinases": 9.91,
+                "Inflammatory Response": {
+                    "mu": 10.955,
+                    "sigma": 1.045
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 86
+            },
+            {
+                "c-Jun N-terminal kinase": 36.2,
+                "p38 mitogen-activated protein kinases": 30.5,
+                "Inflammatory Response": {
+                    "mu": 33.35,
+                    "sigma": 2.85
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 87
+            },
+            {
+                "c-Jun N-terminal kinase": 16.4,
+                "p38 mitogen-activated protein kinases": 49.1,
+                "Inflammatory Response": {
+                    "mu": 32.75,
+                    "sigma": 16.35
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 88
+            },
+            {
+                "c-Jun N-terminal kinase": 33.4,
+                "p38 mitogen-activated protein kinases": 16.3,
+                "Inflammatory Response": {
+                    "mu": 24.85,
+                    "sigma": 8.55
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 89
+            },
+            {
+                "c-Jun N-terminal kinase": 2.69,
+                "p38 mitogen-activated protein kinases": 6.1,
+                "Inflammatory Response": {
+                    "mu": 4.395,
+                    "sigma": 1.705
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 90
+            },
+            {
+                "c-Jun N-terminal kinase": 48.7,
+                "p38 mitogen-activated protein kinases": 54.2,
+                "Inflammatory Response": {
+                    "mu": 51.45,
+                    "sigma": 2.75
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 91
+            },
+            {
+                "c-Jun N-terminal kinase": 15.4,
+                "p38 mitogen-activated protein kinases": 49.1,
+                "Inflammatory Response": {
+                    "mu": 32.25,
+                    "sigma": 16.85
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 92
+            },
+            {
+                "c-Jun N-terminal kinase": 36.5,
+                "p38 mitogen-activated protein kinases": 17.2,
+                "Inflammatory Response": {
+                    "mu": 26.85,
+                    "sigma": 9.65
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 93
+            },
+            {
+                "c-Jun N-terminal kinase": 15.3,
+                "p38 mitogen-activated protein kinases": 89.0,
+                "Inflammatory Response": {
+                    "mu": 52.15,
+                    "sigma": 36.85
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 94
+            },
+            {
+                "c-Jun N-terminal kinase": 24.6,
+                "p38 mitogen-activated protein kinases": 7.7,
+                "Inflammatory Response": {
+                    "mu": 16.15,
+                    "sigma": 8.45
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 95
+            },
+            {
+                "c-Jun N-terminal kinase": 39.2,
+                "p38 mitogen-activated protein kinases": 95.6,
+                "Inflammatory Response": {
+                    "mu": 67.4,
+                    "sigma": 28.2
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 96
+            },
+            {
+                "c-Jun N-terminal kinase": 25.0,
+                "p38 mitogen-activated protein kinases": 93.1,
+                "Inflammatory Response": {
+                    "mu": 59.05,
+                    "sigma": 34.05
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 97
+            },
+            {
+                "c-Jun N-terminal kinase": 22.7,
+                "p38 mitogen-activated protein kinases": 15.3,
+                "Inflammatory Response": {
+                    "mu": 19.0,
+                    "sigma": 3.7
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 98
+            },
+            {
+                "c-Jun N-terminal kinase": 21.9,
+                "p38 mitogen-activated protein kinases": 5.42,
+                "Inflammatory Response": {
+                    "mu": 13.66,
+                    "sigma": 8.24
+                },
+                "Inflammatory Response分布类型": "Normal Distribution",
+                "id": 99
+            }
+        ]
+    }
+]

@@ -1,0 +1,613 @@
+[
+    {
+        "variables": [
+            "c-Jun N-terminal kinase",
+            "p38 mitogen-activated protein kinases"
+        ],
+        "confounder_variables": [
+            "Inflammatory Response"
+        ],
+        "data": [
+            {
+                "c-Jun N-terminal kinase": 44.9,
+                "p38 mitogen-activated protein kinases": 40.0,
+                "Inflammatory Response": 49.86658021406589,
+                "id": 0
+            },
+            {
+                "c-Jun N-terminal kinase": 16.5,
+                "p38 mitogen-activated protein kinases": 61.5,
+                "Inflammatory Response": 27.192776513392957,
+                "id": 1
+            },
+            {
+                "c-Jun N-terminal kinase": 31.9,
+                "p38 mitogen-activated protein kinases": 19.5,
+                "Inflammatory Response": 24.390658282476917,
+                "id": 2
+            },
+            {
+                "c-Jun N-terminal kinase": 28.6,
+                "p38 mitogen-activated protein kinases": 23.1,
+                "Inflammatory Response": 30.086384902046298,
+                "id": 3
+            },
+            {
+                "c-Jun N-terminal kinase": 25.7,
+                "p38 mitogen-activated protein kinases": 81.3,
+                "Inflammatory Response": 7.589769157979212,
+                "id": 4
+            },
+            {
+                "c-Jun N-terminal kinase": 49.1,
+                "p38 mitogen-activated protein kinases": 57.8,
+                "Inflammatory Response": 57.32394250977089,
+                "id": 5
+            },
+            {
+                "c-Jun N-terminal kinase": 35.9,
+                "p38 mitogen-activated protein kinases": 18.1,
+                "Inflammatory Response": 29.397150064469916,
+                "id": 6
+            },
+            {
+                "c-Jun N-terminal kinase": 24.4,
+                "p38 mitogen-activated protein kinases": 20.0,
+                "Inflammatory Response": 19.116065278066504,
+                "id": 7
+            },
+            {
+                "c-Jun N-terminal kinase": 61.0,
+                "p38 mitogen-activated protein kinases": 25.3,
+                "Inflammatory Response": 36.133961275202346,
+                "id": 8
+            },
+            {
+                "c-Jun N-terminal kinase": 26.7,
+                "p38 mitogen-activated protein kinases": 101.0,
+                "Inflammatory Response": 120.47574432039977,
+                "id": 9
+            },
+            {
+                "c-Jun N-terminal kinase": 44.9,
+                "p38 mitogen-activated protein kinases": 24.1,
+                "Inflammatory Response": 19.952277726751312,
+                "id": 10
+            },
+            {
+                "c-Jun N-terminal kinase": 71.0,
+                "p38 mitogen-activated protein kinases": 35.5,
+                "Inflammatory Response": 79.93539078673919,
+                "id": 11
+            },
+            {
+                "c-Jun N-terminal kinase": 44.1,
+                "p38 mitogen-activated protein kinases": 118.0,
+                "Inflammatory Response": 55.3472289587355,
+                "id": 12
+            },
+            {
+                "c-Jun N-terminal kinase": 41.4,
+                "p38 mitogen-activated protein kinases": 151.0,
+                "Inflammatory Response": 113.7801146662268,
+                "id": 13
+            },
+            {
+                "c-Jun N-terminal kinase": 19.1,
+                "p38 mitogen-activated protein kinases": 7.91,
+                "Inflammatory Response": -0.6298343535619644,
+                "id": 14
+            },
+            {
+                "c-Jun N-terminal kinase": 77.0,
+                "p38 mitogen-activated protein kinases": 1.0,
+                "Inflammatory Response": 19.259827855367398,
+                "id": 15
+            },
+            {
+                "c-Jun N-terminal kinase": 65.5,
+                "p38 mitogen-activated protein kinases": 1.42,
+                "Inflammatory Response": 90.33228531668445,
+                "id": 16
+            },
+            {
+                "c-Jun N-terminal kinase": 30.8,
+                "p38 mitogen-activated protein kinases": 7.64,
+                "Inflammatory Response": 17.09675206971943,
+                "id": 17
+            },
+            {
+                "c-Jun N-terminal kinase": 37.2,
+                "p38 mitogen-activated protein kinases": 17.2,
+                "Inflammatory Response": 23.006442753344704,
+                "id": 18
+            },
+            {
+                "c-Jun N-terminal kinase": 27.4,
+                "p38 mitogen-activated protein kinases": 22.1,
+                "Inflammatory Response": 22.946409319247394,
+                "id": 19
+            },
+            {
+                "c-Jun N-terminal kinase": 28.4,
+                "p38 mitogen-activated protein kinases": 20.9,
+                "Inflammatory Response": 30.53314884112058,
+                "id": 20
+            },
+            {
+                "c-Jun N-terminal kinase": 28.4,
+                "p38 mitogen-activated protein kinases": 12.7,
+                "Inflammatory Response": 33.788963838459495,
+                "id": 21
+            },
+            {
+                "c-Jun N-terminal kinase": 84.3,
+                "p38 mitogen-activated protein kinases": 4.61,
+                "Inflammatory Response": 29.35282092410427,
+                "id": 22
+            },
+            {
+                "c-Jun N-terminal kinase": 93.9,
+                "p38 mitogen-activated protein kinases": 48.3,
+                "Inflammatory Response": 97.78525837969397,
+                "id": 23
+            },
+            {
+                "c-Jun N-terminal kinase": 46.1,
+                "p38 mitogen-activated protein kinases": 17.8,
+                "Inflammatory Response": 33.524636385265694,
+                "id": 24
+            },
+            {
+                "c-Jun N-terminal kinase": 29.2,
+                "p38 mitogen-activated protein kinases": 7.04,
+                "Inflammatory Response": 18.52992030063257,
+                "id": 25
+            },
+            {
+                "c-Jun N-terminal kinase": 23.3,
+                "p38 mitogen-activated protein kinases": 6.98,
+                "Inflammatory Response": 10.881394816573057,
+                "id": 26
+            },
+            {
+                "c-Jun N-terminal kinase": 48.3,
+                "p38 mitogen-activated protein kinases": 59.4,
+                "Inflammatory Response": 64.1625640666703,
+                "id": 27
+            },
+            {
+                "c-Jun N-terminal kinase": 38.9,
+                "p38 mitogen-activated protein kinases": 196.0,
+                "Inflammatory Response": 93.74476327177503,
+                "id": 28
+            },
+            {
+                "c-Jun N-terminal kinase": 41.8,
+                "p38 mitogen-activated protein kinases": 23.1,
+                "Inflammatory Response": 25.138576050787833,
+                "id": 29
+            },
+            {
+                "c-Jun N-terminal kinase": 38.5,
+                "p38 mitogen-activated protein kinases": 20.9,
+                "Inflammatory Response": 16.506030883521554,
+                "id": 30
+            },
+            {
+                "c-Jun N-terminal kinase": 67.9,
+                "p38 mitogen-activated protein kinases": 28.1,
+                "Inflammatory Response": 55.8633078221431,
+                "id": 31
+            },
+            {
+                "c-Jun N-terminal kinase": 40.3,
+                "p38 mitogen-activated protein kinases": 15.3,
+                "Inflammatory Response": 15.790595590382036,
+                "id": 32
+            },
+            {
+                "c-Jun N-terminal kinase": 59.9,
+                "p38 mitogen-activated protein kinases": 17.9,
+                "Inflammatory Response": 51.22916349466377,
+                "id": 33
+            },
+            {
+                "c-Jun N-terminal kinase": 31.9,
+                "p38 mitogen-activated protein kinases": 20.7,
+                "Inflammatory Response": 24.285848067932502,
+                "id": 34
+            },
+            {
+                "c-Jun N-terminal kinase": 38.5,
+                "p38 mitogen-activated protein kinases": 20.9,
+                "Inflammatory Response": 22.85969567052527,
+                "id": 35
+            },
+            {
+                "c-Jun N-terminal kinase": 28.9,
+                "p38 mitogen-activated protein kinases": 12.6,
+                "Inflammatory Response": 12.605104338045843,
+                "id": 36
+            },
+            {
+                "c-Jun N-terminal kinase": 31.3,
+                "p38 mitogen-activated protein kinases": 83.5,
+                "Inflammatory Response": 75.59232261901327,
+                "id": 37
+            },
+            {
+                "c-Jun N-terminal kinase": 80.6,
+                "p38 mitogen-activated protein kinases": 139.0,
+                "Inflammatory Response": 106.79482832634434,
+                "id": 38
+            },
+            {
+                "c-Jun N-terminal kinase": 23.7,
+                "p38 mitogen-activated protein kinases": 13.5,
+                "Inflammatory Response": 7.805679684399632,
+                "id": 39
+            },
+            {
+                "c-Jun N-terminal kinase": 8.98,
+                "p38 mitogen-activated protein kinases": 43.3,
+                "Inflammatory Response": 39.05990921879091,
+                "id": 40
+            },
+            {
+                "c-Jun N-terminal kinase": 37.9,
+                "p38 mitogen-activated protein kinases": 17.8,
+                "Inflammatory Response": 48.017841397744164,
+                "id": 41
+            },
+            {
+                "c-Jun N-terminal kinase": 40.3,
+                "p38 mitogen-activated protein kinases": 221.0,
+                "Inflammatory Response": 193.60611334389836,
+                "id": 42
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 7.7,
+                "Inflammatory Response": 5.2589606943277225,
+                "id": 43
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 105.0,
+                "Inflammatory Response": 54.709845551745474,
+                "id": 44
+            },
+            {
+                "c-Jun N-terminal kinase": 48.7,
+                "p38 mitogen-activated protein kinases": 22.5,
+                "Inflammatory Response": 55.18103664070803,
+                "id": 45
+            },
+            {
+                "c-Jun N-terminal kinase": 66.7,
+                "p38 mitogen-activated protein kinases": 40.0,
+                "Inflammatory Response": 46.8040927062518,
+                "id": 46
+            },
+            {
+                "c-Jun N-terminal kinase": 46.1,
+                "p38 mitogen-activated protein kinases": 17.0,
+                "Inflammatory Response": 51.63269683296562,
+                "id": 47
+            },
+            {
+                "c-Jun N-terminal kinase": 32.8,
+                "p38 mitogen-activated protein kinases": 108.0,
+                "Inflammatory Response": 49.743644310592984,
+                "id": 48
+            },
+            {
+                "c-Jun N-terminal kinase": 34.9,
+                "p38 mitogen-activated protein kinases": 6.15,
+                "Inflammatory Response": 47.47525127274484,
+                "id": 49
+            },
+            {
+                "c-Jun N-terminal kinase": 22.7,
+                "p38 mitogen-activated protein kinases": 11.7,
+                "Inflammatory Response": 18.314041558109345,
+                "id": 50
+            },
+            {
+                "c-Jun N-terminal kinase": 26.9,
+                "p38 mitogen-activated protein kinases": 173.0,
+                "Inflammatory Response": 190.4595586476485,
+                "id": 51
+            },
+            {
+                "c-Jun N-terminal kinase": 43.7,
+                "p38 mitogen-activated protein kinases": 10.1,
+                "Inflammatory Response": 38.64130772673885,
+                "id": 52
+            },
+            {
+                "c-Jun N-terminal kinase": 32.5,
+                "p38 mitogen-activated protein kinases": 10.5,
+                "Inflammatory Response": 14.428760919406152,
+                "id": 53
+            },
+            {
+                "c-Jun N-terminal kinase": 38.2,
+                "p38 mitogen-activated protein kinases": 17.6,
+                "Inflammatory Response": 27.64253111141298,
+                "id": 54
+            },
+            {
+                "c-Jun N-terminal kinase": 121.0,
+                "p38 mitogen-activated protein kinases": 32.5,
+                "Inflammatory Response": 75.88388579589372,
+                "id": 55
+            },
+            {
+                "c-Jun N-terminal kinase": 80.6,
+                "p38 mitogen-activated protein kinases": 71.7,
+                "Inflammatory Response": 74.53134159454572,
+                "id": 56
+            },
+            {
+                "c-Jun N-terminal kinase": 16.7,
+                "p38 mitogen-activated protein kinases": 95.6,
+                "Inflammatory Response": 52.603879803641306,
+                "id": 57
+            },
+            {
+                "c-Jun N-terminal kinase": 23.3,
+                "p38 mitogen-activated protein kinases": 11.9,
+                "Inflammatory Response": 22.786102118305365,
+                "id": 58
+            },
+            {
+                "c-Jun N-terminal kinase": 33.1,
+                "p38 mitogen-activated protein kinases": 17.5,
+                "Inflammatory Response": 27.538751511291355,
+                "id": 59
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 9.39,
+                "Inflammatory Response": 13.05406912918206,
+                "id": 60
+            },
+            {
+                "c-Jun N-terminal kinase": 42.2,
+                "p38 mitogen-activated protein kinases": 20.7,
+                "Inflammatory Response": 36.64906432604847,
+                "id": 61
+            },
+            {
+                "c-Jun N-terminal kinase": 47.4,
+                "p38 mitogen-activated protein kinases": 9.47,
+                "Inflammatory Response": 35.662022751014284,
+                "id": 62
+            },
+            {
+                "c-Jun N-terminal kinase": 59.9,
+                "p38 mitogen-activated protein kinases": 80.6,
+                "Inflammatory Response": 95.36317634280805,
+                "id": 63
+            },
+            {
+                "c-Jun N-terminal kinase": 35.5,
+                "p38 mitogen-activated protein kinases": 12.4,
+                "Inflammatory Response": 24.386280605347984,
+                "id": 64
+            },
+            {
+                "c-Jun N-terminal kinase": 27.1,
+                "p38 mitogen-activated protein kinases": 78.4,
+                "Inflammatory Response": -12.405557052661607,
+                "id": 65
+            },
+            {
+                "c-Jun N-terminal kinase": 42.9,
+                "p38 mitogen-activated protein kinases": 80.6,
+                "Inflammatory Response": 76.4922340382713,
+                "id": 66
+            },
+            {
+                "c-Jun N-terminal kinase": 7.37,
+                "p38 mitogen-activated protein kinases": 3.43,
+                "Inflammatory Response": 4.924119185846672,
+                "id": 67
+            },
+            {
+                "c-Jun N-terminal kinase": 14.9,
+                "p38 mitogen-activated protein kinases": 64.9,
+                "Inflammatory Response": 74.51492324201718,
+                "id": 68
+            },
+            {
+                "c-Jun N-terminal kinase": 24.4,
+                "p38 mitogen-activated protein kinases": 15.4,
+                "Inflammatory Response": 20.784611873805844,
+                "id": 69
+            },
+            {
+                "c-Jun N-terminal kinase": 39.6,
+                "p38 mitogen-activated protein kinases": 75.7,
+                "Inflammatory Response": 66.63320588514745,
+                "id": 70
+            },
+            {
+                "c-Jun N-terminal kinase": 22.3,
+                "p38 mitogen-activated protein kinases": 6.67,
+                "Inflammatory Response": 6.281267031534291,
+                "id": 71
+            },
+            {
+                "c-Jun N-terminal kinase": 19.8,
+                "p38 mitogen-activated protein kinases": 10.4,
+                "Inflammatory Response": 14.367877572315638,
+                "id": 72
+            },
+            {
+                "c-Jun N-terminal kinase": 31.1,
+                "p38 mitogen-activated protein kinases": 27.6,
+                "Inflammatory Response": 30.58288751772197,
+                "id": 73
+            },
+            {
+                "c-Jun N-terminal kinase": 47.8,
+                "p38 mitogen-activated protein kinases": 16.4,
+                "Inflammatory Response": 53.763441962555234,
+                "id": 74
+            },
+            {
+                "c-Jun N-terminal kinase": 48.3,
+                "p38 mitogen-activated protein kinases": 4.66,
+                "Inflammatory Response": 41.49595076878745,
+                "id": 75
+            },
+            {
+                "c-Jun N-terminal kinase": 25.0,
+                "p38 mitogen-activated protein kinases": 91.4,
+                "Inflammatory Response": 66.54092114129061,
+                "id": 76
+            },
+            {
+                "c-Jun N-terminal kinase": 31.1,
+                "p38 mitogen-activated protein kinases": 7.64,
+                "Inflammatory Response": 20.486671509438423,
+                "id": 77
+            },
+            {
+                "c-Jun N-terminal kinase": 22.7,
+                "p38 mitogen-activated protein kinases": 6.85,
+                "Inflammatory Response": 13.644686660763481,
+                "id": 78
+            },
+            {
+                "c-Jun N-terminal kinase": 43.3,
+                "p38 mitogen-activated protein kinases": 20.0,
+                "Inflammatory Response": 27.957567310176294,
+                "id": 79
+            },
+            {
+                "c-Jun N-terminal kinase": 29.4,
+                "p38 mitogen-activated protein kinases": 16.8,
+                "Inflammatory Response": 22.100147679088856,
+                "id": 80
+            },
+            {
+                "c-Jun N-terminal kinase": 31.3,
+                "p38 mitogen-activated protein kinases": 12.0,
+                "Inflammatory Response": 16.905587887953786,
+                "id": 81
+            },
+            {
+                "c-Jun N-terminal kinase": 39.2,
+                "p38 mitogen-activated protein kinases": 15.7,
+                "Inflammatory Response": 20.284402744555038,
+                "id": 82
+            },
+            {
+                "c-Jun N-terminal kinase": 68.5,
+                "p38 mitogen-activated protein kinases": 8.2,
+                "Inflammatory Response": 66.77429529762279,
+                "id": 83
+            },
+            {
+                "c-Jun N-terminal kinase": 6.98,
+                "p38 mitogen-activated protein kinases": 71.0,
+                "Inflammatory Response": 36.96644433966917,
+                "id": 84
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 7.91,
+                "Inflammatory Response": 7.139209924406012,
+                "id": 85
+            },
+            {
+                "c-Jun N-terminal kinase": 12.0,
+                "p38 mitogen-activated protein kinases": 9.91,
+                "Inflammatory Response": 12.752096678876473,
+                "id": 86
+            },
+            {
+                "c-Jun N-terminal kinase": 36.2,
+                "p38 mitogen-activated protein kinases": 30.5,
+                "Inflammatory Response": 33.52052991219574,
+                "id": 87
+            },
+            {
+                "c-Jun N-terminal kinase": 16.4,
+                "p38 mitogen-activated protein kinases": 49.1,
+                "Inflammatory Response": 39.620812482344505,
+                "id": 88
+            },
+            {
+                "c-Jun N-terminal kinase": 33.4,
+                "p38 mitogen-activated protein kinases": 16.3,
+                "Inflammatory Response": 22.826866479613997,
+                "id": 89
+            },
+            {
+                "c-Jun N-terminal kinase": 2.69,
+                "p38 mitogen-activated protein kinases": 6.1,
+                "Inflammatory Response": 3.6952958398026023,
+                "id": 90
+            },
+            {
+                "c-Jun N-terminal kinase": 48.7,
+                "p38 mitogen-activated protein kinases": 54.2,
+                "Inflammatory Response": 49.53535518728314,
+                "id": 91
+            },
+            {
+                "c-Jun N-terminal kinase": 15.4,
+                "p38 mitogen-activated protein kinases": 49.1,
+                "Inflammatory Response": 25.176106340321873,
+                "id": 92
+            },
+            {
+                "c-Jun N-terminal kinase": 36.5,
+                "p38 mitogen-activated protein kinases": 17.2,
+                "Inflammatory Response": 23.973770889268543,
+                "id": 93
+            },
+            {
+                "c-Jun N-terminal kinase": 15.3,
+                "p38 mitogen-activated protein kinases": 89.0,
+                "Inflammatory Response": -1.3698096952109253,
+                "id": 94
+            },
+            {
+                "c-Jun N-terminal kinase": 24.6,
+                "p38 mitogen-activated protein kinases": 7.7,
+                "Inflammatory Response": 22.915412210495507,
+                "id": 95
+            },
+            {
+                "c-Jun N-terminal kinase": 39.2,
+                "p38 mitogen-activated protein kinases": 95.6,
+                "Inflammatory Response": 64.78820466322856,
+                "id": 96
+            },
+            {
+                "c-Jun N-terminal kinase": 25.0,
+                "p38 mitogen-activated protein kinases": 93.1,
+                "Inflammatory Response": 101.34724964873583,
+                "id": 97
+            },
+            {
+                "c-Jun N-terminal kinase": 22.7,
+                "p38 mitogen-activated protein kinases": 15.3,
+                "Inflammatory Response": 19.745709844283493,
+                "id": 98
+            },
+            {
+                "c-Jun N-terminal kinase": 21.9,
+                "p38 mitogen-activated protein kinases": 5.42,
+                "Inflammatory Response": 15.51754820548612,
+                "id": 99
+            }
+        ]
+    }
+]
