@@ -20,7 +20,7 @@ def main():
     主函数，加载LLM直接生成的连续型数据文件，执行因果发现并打印结果。
     """
     # 定义新的输入文件路径
-    json_file_path = 'outcome/927_outcome/final_data.json'
+    json_file_path = 'outcome/1009_outcome/final_data.json'
     
     if not os.path.exists(json_file_path):
         print(f"错误: 数据文件 '{json_file_path}' 不存在。")

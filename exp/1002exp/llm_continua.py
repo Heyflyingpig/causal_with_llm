@@ -110,26 +110,24 @@ def data_llm(*variables: str, confounder_variables: str | list, var_list: list ,
     # 使用 .format() 方法代替f-string，以安全地处理包含JSON示例的提示文本
     prompt_data = """
     你是一位严谨的因果数据科学家，擅长根据概率模型生成高质量的合成数据
-    
     **背景**: 我们正在研究一个因果假设，并需要你根据下面提供的概率信息，生成一个符合统计规律的连续型数据集。
 
     **任务**: 
-    生成一个包含所有混杂隐变量需要的数据集
-    **变量与因果假设**:
+    生成一个包含所有混杂隐变量需要的数据集。
     - 观察变量: {var_str}
     - 隐混杂变量及其分布类型: {conf_vars_str}
     - 观察变量对应的数据：{var_list_str}
-    你需要根据我们推测出的混淆隐变量以及其分布类型，生成该个体的分布类型的参数。例如，如果分布是正态分布，LLM会为每个个体生成一个均值（μᵢ）和标准差（σᵢ） 。
+    你需要根据我们推测出的混淆隐变量以及其分布类型，以及**所有的数据**，生成该混淆变量的分布类型的参数。例如，如果分布是正态分布，LLM会为这一个变量生成一个均值（μᵢ）和标准差（σᵢ） 。
 
     **要求**: 
     **关键生成原则 (必须严格遵守)**:
-    1. 隐混淆变量是影响所有观察变量的变量,已知结构是隐混淆变量 -> 观察变量1, 隐混淆变量 -> 观察变量2
-    2. 生成的参数需要根据分布类型生成，并且需要符合因果关系。
+    1. 隐混淆变量是影响所有观察变量的变量。
+    2. 生成的参数需要根据分布类型和所有的数据生成，并且需要符合因果关系。
     3. 你必须以严格的JSON格式输出，不要包含任何JSON格式之外的解释性文字，对于每一个混淆变量单独生成数据输出,要求如下：
             - "variables": 一个包含输入变量的列表。
             - "confounder_variables": 一个包含混淆隐变量的列表。
-            - "data": 一个包含所有数据对象的列表，每个对象包含观察变量的值和混淆变量的分布参数以及类型。
-            - "id": 一个包含数据集id的列表。
+            - "data": 一个包含分布类型和分布参数的列表。
+            - "id": 一个包含数据集顺序的数字的列表。
 
     **输出格式示例**:
     ```json
@@ -139,16 +137,14 @@ def data_llm(*variables: str, confounder_variables: str | list, var_list: list ,
         "variables": ["变量A", "变量B"],
         "confounder_variables": ["混淆变量1"],
         "data": [
-            {{"变量A": "值", "变量B": "值", "混淆变量1": {{"参数类型": "参数数值", "参数类型": "参数数值"}}, "混淆变量1分布类型": "分布类型", "id": "值"}},
-            {{"变量A": "值", "变量B": "值", "混淆变量1": {{"参数类型": "参数数值", "参数类型": "参数数值"}}, "混淆变量1分布类型": "分布类型", "id": "值"}}
+            {{"混淆变量1": "分布类型","参数":{{"参数类型1": "参数数值", "参数类型2": "参数数值"}}, "id": "值"}},
         ]
         }},
             {{
         "variables": ["变量A", "变量B"],
         "confounder_variables": ["混淆变量2"],
         "data": [
-            {{"变量A": "值", "变量B": "值", "混淆变量2": {{"参数类型": "参数数值", "参数类型": "参数数值"}}, "混淆变量2分布类型": "分布类型", "id": "值"}},
-            {{"变量A": "值", "变量B": "值", "混淆变量2": {{"参数类型": "参数数值", "参数类型": "参数数值"}}, "混淆变量2分布类型": "分布类型", "id": "值"}}
+            {{"混淆变量2": "分布类型","参数":{{"参数类型1": "参数数值", "参数类型2": "参数数值"}}, "id": "值"}},
         ]
         }}
     ]
@@ -299,7 +295,7 @@ if __name__ == '__main__':
     finally:
         # finally块确保无论是否发生异常，都会执行这部分代码
         if all_hypotheses_data:
-            output_filename = "outcome/1009_outcome/var_glm_output_test.json"
+            output_filename = "outcome/1002_outcome/var_glm_output_test.json"
 
             with open(output_filename, 'w', encoding='utf-8') as f:
                 json.dump(all_hypotheses_data, f, indent=4, ensure_ascii=False)
@@ -319,7 +315,7 @@ if __name__ == '__main__':
         print(f"\n程序发生严重错误: {e}")
     finally:
         if all_data:
-            output_data_filename = "outcome/1009_outcome/data_glm_data_test.json"
+            output_data_filename = "outcome/1002_outcome/data_glm_data_test.json"
             with open(output_data_filename, 'w', encoding='utf-8') as f:
                 json.dump(all_data, f, indent=4, ensure_ascii=False)
             print(f"\n所有 {len(all_data)} 次运行的结果已成功保存到文件: {output_data_filename}")

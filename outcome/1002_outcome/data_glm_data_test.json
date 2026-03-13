@@ -1,0 +1,21 @@
+[
+    {
+        "variables": [
+            "c-Jun N-terminal kinase",
+            "p38 mitogen-activated protein kinases"
+        ],
+        "confounder_variables": [
+            "Oxidative stress"
+        ],
+        "data": [
+            {
+                "Oxidative stress": "Normal distribution",
+                "参数": {
+                    "mean": 50.008,
+                    "std": 40.317
+                },
+                "id": 1
+            }
+        ]
+    }
+]

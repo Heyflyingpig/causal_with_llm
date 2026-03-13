@@ -1,0 +1,1013 @@
+[
+    {
+        "variables": [
+            "c-Jun N-terminal kinase",
+            "p38 mitogen-activated protein kinases"
+        ],
+        "confounder_variables": [
+            "炎症反应"
+        ],
+        "data": [
+            {
+                "c-Jun N-terminal kinase": 44.9,
+                "p38 mitogen-activated protein kinases": 40.0,
+                "炎症反应": {
+                    "mean": 42.45,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 0
+            },
+            {
+                "c-Jun N-terminal kinase": 16.5,
+                "p38 mitogen-activated protein kinases": 61.5,
+                "炎症反应": {
+                    "mean": 39.0,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 1
+            },
+            {
+                "c-Jun N-terminal kinase": 31.9,
+                "p38 mitogen-activated protein kinases": 19.5,
+                "炎症反应": {
+                    "mean": 25.7,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 2
+            },
+            {
+                "c-Jun N-terminal kinase": 28.6,
+                "p38 mitogen-activated protein kinases": 23.1,
+                "炎症反应": {
+                    "mean": 25.85,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 3
+            },
+            {
+                "c-Jun N-terminal kinase": 25.7,
+                "p38 mitogen-activated protein kinases": 81.3,
+                "炎症反应": {
+                    "mean": 53.5,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 4
+            },
+            {
+                "c-Jun N-terminal kinase": 49.1,
+                "p38 mitogen-activated protein kinases": 57.8,
+                "炎症反应": {
+                    "mean": 53.45,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 5
+            },
+            {
+                "c-Jun N-terminal kinase": 35.9,
+                "p38 mitogen-activated protein kinases": 18.1,
+                "炎症反应": {
+                    "mean": 27.0,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 6
+            },
+            {
+                "c-Jun N-terminal kinase": 24.4,
+                "p38 mitogen-activated protein kinases": 20.0,
+                "炎症反应": {
+                    "mean": 22.2,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 7
+            },
+            {
+                "c-Jun N-terminal kinase": 61.0,
+                "p38 mitogen-activated protein kinases": 25.3,
+                "炎症反应": {
+                    "mean": 43.15,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 8
+            },
+            {
+                "c-Jun N-terminal kinase": 26.7,
+                "p38 mitogen-activated protein kinases": 101.0,
+                "炎症反应": {
+                    "mean": 63.85,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 9
+            },
+            {
+                "c-Jun N-terminal kinase": 44.9,
+                "p38 mitogen-activated protein kinases": 24.1,
+                "炎症反应": {
+                    "mean": 34.5,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 10
+            },
+            {
+                "c-Jun N-terminal kinase": 71.0,
+                "p38 mitogen-activated protein kinases": 35.5,
+                "炎症反应": {
+                    "mean": 53.25,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 11
+            },
+            {
+                "c-Jun N-terminal kinase": 44.1,
+                "p38 mitogen-activated protein kinases": 118.0,
+                "炎症反应": {
+                    "mean": 81.05,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 12
+            },
+            {
+                "c-Jun N-terminal kinase": 41.4,
+                "p38 mitogen-activated protein kinases": 151.0,
+                "炎症反应": {
+                    "mean": 96.2,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 13
+            },
+            {
+                "c-Jun N-terminal kinase": 19.1,
+                "p38 mitogen-activated protein kinases": 7.91,
+                "炎症反应": {
+                    "mean": 13.505,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 14
+            },
+            {
+                "c-Jun N-terminal kinase": 77.0,
+                "p38 mitogen-activated protein kinases": 1.0,
+                "炎症反应": {
+                    "mean": 39.0,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 15
+            },
+            {
+                "c-Jun N-terminal kinase": 65.5,
+                "p38 mitogen-activated protein kinases": 1.42,
+                "炎症反应": {
+                    "mean": 33.46,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 16
+            },
+            {
+                "c-Jun N-terminal kinase": 30.8,
+                "p38 mitogen-activated protein kinases": 7.64,
+                "炎症反应": {
+                    "mean": 19.22,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 17
+            },
+            {
+                "c-Jun N-terminal kinase": 37.2,
+                "p38 mitogen-activated protein kinases": 17.2,
+                "炎症反应": {
+                    "mean": 27.2,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 18
+            },
+            {
+                "c-Jun N-terminal kinase": 27.4,
+                "p38 mitogen-activated protein kinases": 22.1,
+                "炎症反应": {
+                    "mean": 24.75,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 19
+            },
+            {
+                "c-Jun N-terminal kinase": 28.4,
+                "p38 mitogen-activated protein kinases": 20.9,
+                "炎症反应": {
+                    "mean": 24.65,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 20
+            },
+            {
+                "c-Jun N-terminal kinase": 28.4,
+                "p38 mitogen-activated protein kinases": 12.7,
+                "炎症反应": {
+                    "mean": 20.55,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 21
+            },
+            {
+                "c-Jun N-terminal kinase": 84.3,
+                "p38 mitogen-activated protein kinases": 4.61,
+                "炎症反应": {
+                    "mean": 44.455,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 22
+            },
+            {
+                "c-Jun N-terminal kinase": 93.9,
+                "p38 mitogen-activated protein kinases": 48.3,
+                "炎症反应": {
+                    "mean": 71.1,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 23
+            },
+            {
+                "c-Jun N-terminal kinase": 46.1,
+                "p38 mitogen-activated protein kinases": 17.8,
+                "炎症反应": {
+                    "mean": 31.95,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 24
+            },
+            {
+                "c-Jun N-terminal kinase": 29.2,
+                "p38 mitogen-activated protein kinases": 7.04,
+                "炎症反应": {
+                    "mean": 18.12,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 25
+            },
+            {
+                "c-Jun N-terminal kinase": 23.3,
+                "p38 mitogen-activated protein kinases": 6.98,
+                "炎症反应": {
+                    "mean": 15.14,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 26
+            },
+            {
+                "c-Jun N-terminal kinase": 48.3,
+                "p38 mitogen-activated protein kinases": 59.4,
+                "炎症反应": {
+                    "mean": 53.85,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 27
+            },
+            {
+                "c-Jun N-terminal kinase": 38.9,
+                "p38 mitogen-activated protein kinases": 196.0,
+                "炎症反应": {
+                    "mean": 117.45,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 28
+            },
+            {
+                "c-Jun N-terminal kinase": 41.8,
+                "p38 mitogen-activated protein kinases": 23.1,
+                "炎症反应": {
+                    "mean": 32.45,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 29
+            },
+            {
+                "c-Jun N-terminal kinase": 38.5,
+                "p38 mitogen-activated protein kinases": 20.9,
+                "炎症反应": {
+                    "mean": 29.7,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 30
+            },
+            {
+                "c-Jun N-terminal kinase": 67.9,
+                "p38 mitogen-activated protein kinases": 28.1,
+                "炎症反应": {
+                    "mean": 48.0,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 31
+            },
+            {
+                "c-Jun N-terminal kinase": 40.3,
+                "p38 mitogen-activated protein kinases": 15.3,
+                "炎症反应": {
+                    "mean": 27.8,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 32
+            },
+            {
+                "c-Jun N-terminal kinase": 59.9,
+                "p38 mitogen-activated protein kinases": 17.9,
+                "炎症反应": {
+                    "mean": 38.9,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 33
+            },
+            {
+                "c-Jun N-terminal kinase": 31.9,
+                "p38 mitogen-activated protein kinases": 20.7,
+                "炎症反应": {
+                    "mean": 26.3,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 34
+            },
+            {
+                "c-Jun N-terminal kinase": 38.5,
+                "p38 mitogen-activated protein kinases": 20.9,
+                "炎症反应": {
+                    "mean": 29.7,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 35
+            },
+            {
+                "c-Jun N-terminal kinase": 28.9,
+                "p38 mitogen-activated protein kinases": 12.6,
+                "炎症反应": {
+                    "mean": 20.75,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 36
+            },
+            {
+                "c-Jun N-terminal kinase": 31.3,
+                "p38 mitogen-activated protein kinases": 83.5,
+                "炎症反应": {
+                    "mean": 57.4,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 37
+            },
+            {
+                "c-Jun N-terminal kinase": 80.6,
+                "p38 mitogen-activated protein kinases": 139.0,
+                "炎症反应": {
+                    "mean": 109.8,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 38
+            },
+            {
+                "c-Jun N-terminal kinase": 23.7,
+                "p38 mitogen-activated protein kinases": 13.5,
+                "炎症反应": {
+                    "mean": 18.6,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 39
+            },
+            {
+                "c-Jun N-terminal kinase": 8.98,
+                "p38 mitogen-activated protein kinases": 43.3,
+                "炎症反应": {
+                    "mean": 26.14,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 40
+            },
+            {
+                "c-Jun N-terminal kinase": 37.9,
+                "p38 mitogen-activated protein kinases": 17.8,
+                "炎症反应": {
+                    "mean": 27.85,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 41
+            },
+            {
+                "c-Jun N-terminal kinase": 40.3,
+                "p38 mitogen-activated protein kinases": 221.0,
+                "炎症反应": {
+                    "mean": 130.65,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 42
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 7.7,
+                "炎症反应": {
+                    "mean": 13.85,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 43
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 105.0,
+                "炎症反应": {
+                    "mean": 62.5,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 44
+            },
+            {
+                "c-Jun N-terminal kinase": 48.7,
+                "p38 mitogen-activated protein kinases": 22.5,
+                "炎症反应": {
+                    "mean": 35.6,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 45
+            },
+            {
+                "c-Jun N-terminal kinase": 66.7,
+                "p38 mitogen-activated protein kinases": 40.0,
+                "炎症反应": {
+                    "mean": 53.35,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 46
+            },
+            {
+                "c-Jun N-terminal kinase": 46.1,
+                "p38 mitogen-activated protein kinases": 17.0,
+                "炎症反应": {
+                    "mean": 31.55,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 47
+            },
+            {
+                "c-Jun N-terminal kinase": 32.8,
+                "p38 mitogen-activated protein kinases": 108.0,
+                "炎症反应": {
+                    "mean": 70.4,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 48
+            },
+            {
+                "c-Jun N-terminal kinase": 34.9,
+                "p38 mitogen-activated protein kinases": 6.15,
+                "炎症反应": {
+                    "mean": 20.525,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 49
+            },
+            {
+                "c-Jun N-terminal kinase": 22.7,
+                "p38 mitogen-activated protein kinases": 11.7,
+                "炎症反应": {
+                    "mean": 17.2,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 50
+            },
+            {
+                "c-Jun N-terminal kinase": 26.9,
+                "p38 mitogen-activated protein kinases": 173.0,
+                "炎症反应": {
+                    "mean": 99.95,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 51
+            },
+            {
+                "c-Jun N-terminal kinase": 43.7,
+                "p38 mitogen-activated protein kinases": 10.1,
+                "炎症反应": {
+                    "mean": 26.9,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 52
+            },
+            {
+                "c-Jun N-terminal kinase": 32.5,
+                "p38 mitogen-activated protein kinases": 10.5,
+                "炎症反应": {
+                    "mean": 21.5,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 53
+            },
+            {
+                "c-Jun N-terminal kinase": 38.2,
+                "p38 mitogen-activated protein kinases": 17.6,
+                "炎症反应": {
+                    "mean": 27.9,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 54
+            },
+            {
+                "c-Jun N-terminal kinase": 121.0,
+                "p38 mitogen-activated protein kinases": 32.5,
+                "炎症反应": {
+                    "mean": 76.75,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 55
+            },
+            {
+                "c-Jun N-terminal kinase": 80.6,
+                "p38 mitogen-activated protein kinases": 71.7,
+                "炎症反应": {
+                    "mean": 76.15,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 56
+            },
+            {
+                "c-Jun N-terminal kinase": 16.7,
+                "p38 mitogen-activated protein kinases": 95.6,
+                "炎症反应": {
+                    "mean": 56.15,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 57
+            },
+            {
+                "c-Jun N-terminal kinase": 23.3,
+                "p38 mitogen-activated protein kinases": 11.9,
+                "炎症反应": {
+                    "mean": 17.6,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 58
+            },
+            {
+                "c-Jun N-terminal kinase": 33.1,
+                "p38 mitogen-activated protein kinases": 17.5,
+                "炎症反应": {
+                    "mean": 25.3,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 59
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 9.39,
+                "炎症反应": {
+                    "mean": 14.695,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 60
+            },
+            {
+                "c-Jun N-terminal kinase": 42.2,
+                "p38 mitogen-activated protein kinases": 20.7,
+                "炎症反应": {
+                    "mean": 31.45,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 61
+            },
+            {
+                "c-Jun N-terminal kinase": 47.4,
+                "p38 mitogen-activated protein kinases": 9.47,
+                "炎症反应": {
+                    "mean": 28.435,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 62
+            },
+            {
+                "c-Jun N-terminal kinase": 59.9,
+                "p38 mitogen-activated protein kinases": 80.6,
+                "炎症反应": {
+                    "mean": 70.25,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 63
+            },
+            {
+                "c-Jun N-terminal kinase": 35.5,
+                "p38 mitogen-activated protein kinases": 12.4,
+                "炎症反应": {
+                    "mean": 23.95,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 64
+            },
+            {
+                "c-Jun N-terminal kinase": 27.1,
+                "p38 mitogen-activated protein kinases": 78.4,
+                "炎症反应": {
+                    "mean": 52.75,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 65
+            },
+            {
+                "c-Jun N-terminal kinase": 42.9,
+                "p38 mitogen-activated protein kinases": 80.6,
+                "炎症反应": {
+                    "mean": 61.75,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 66
+            },
+            {
+                "c-Jun N-terminal kinase": 7.37,
+                "p38 mitogen-activated protein kinases": 3.43,
+                "炎症反应": {
+                    "mean": 5.4,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 67
+            },
+            {
+                "c-Jun N-terminal kinase": 14.9,
+                "p38 mitogen-activated protein kinases": 64.9,
+                "炎症反应": {
+                    "mean": 39.9,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 68
+            },
+            {
+                "c-Jun N-terminal kinase": 24.4,
+                "p38 mitogen-activated protein kinases": 15.4,
+                "炎症反应": {
+                    "mean": 19.9,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 69
+            },
+            {
+                "c-Jun N-terminal kinase": 39.6,
+                "p38 mitogen-activated protein kinases": 75.7,
+                "炎症反应": {
+                    "mean": 57.65,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 70
+            },
+            {
+                "c-Jun N-terminal kinase": 22.3,
+                "p38 mitogen-activated protein kinases": 6.67,
+                "炎症反应": {
+                    "mean": 14.485,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 71
+            },
+            {
+                "c-Jun N-terminal kinase": 19.8,
+                "p38 mitogen-activated protein kinases": 10.4,
+                "炎症反应": {
+                    "mean": 15.1,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 72
+            },
+            {
+                "c-Jun N-terminal kinase": 31.1,
+                "p38 mitogen-activated protein kinases": 27.6,
+                "炎症反应": {
+                    "mean": 29.35,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 73
+            },
+            {
+                "c-Jun N-terminal kinase": 47.8,
+                "p38 mitogen-activated protein kinases": 16.4,
+                "炎症反应": {
+                    "mean": 32.1,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 74
+            },
+            {
+                "c-Jun N-terminal kinase": 48.3,
+                "p38 mitogen-activated protein kinases": 4.66,
+                "炎症反应": {
+                    "mean": 26.48,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 75
+            },
+            {
+                "c-Jun N-terminal kinase": 25.0,
+                "p38 mitogen-activated protein kinases": 91.4,
+                "炎症反应": {
+                    "mean": 58.2,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 76
+            },
+            {
+                "c-Jun N-terminal kinase": 31.1,
+                "p38 mitogen-activated protein kinases": 7.64,
+                "炎症反应": {
+                    "mean": 19.37,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 77
+            },
+            {
+                "c-Jun N-terminal kinase": 22.7,
+                "p38 mitogen-activated protein kinases": 6.85,
+                "炎症反应": {
+                    "mean": 14.775,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 78
+            },
+            {
+                "c-Jun N-terminal kinase": 43.3,
+                "p38 mitogen-activated protein kinases": 20.0,
+                "炎症反应": {
+                    "mean": 31.65,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 79
+            },
+            {
+                "c-Jun N-terminal kinase": 29.4,
+                "p38 mitogen-activated protein kinases": 16.8,
+                "炎症反应": {
+                    "mean": 23.1,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 80
+            },
+            {
+                "c-Jun N-terminal kinase": 31.3,
+                "p38 mitogen-activated protein kinases": 12.0,
+                "炎症反应": {
+                    "mean": 21.65,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 81
+            },
+            {
+                "c-Jun N-terminal kinase": 39.2,
+                "p38 mitogen-activated protein kinases": 15.7,
+                "炎症反应": {
+                    "mean": 27.45,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 82
+            },
+            {
+                "c-Jun N-terminal kinase": 68.5,
+                "p38 mitogen-activated protein kinases": 8.2,
+                "炎症反应": {
+                    "mean": 38.35,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 83
+            },
+            {
+                "c-Jun N-terminal kinase": 6.98,
+                "p38 mitogen-activated protein kinases": 71.0,
+                "炎症反应": {
+                    "mean": 38.99,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 84
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 7.91,
+                "炎症反应": {
+                    "mean": 13.955,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 85
+            },
+            {
+                "c-Jun N-terminal kinase": 12.0,
+                "p38 mitogen-activated protein kinases": 9.91,
+                "炎症反应": {
+                    "mean": 10.955,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 86
+            },
+            {
+                "c-Jun N-terminal kinase": 36.2,
+                "p38 mitogen-activated protein kinases": 30.5,
+                "炎症反应": {
+                    "mean": 33.35,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 87
+            },
+            {
+                "c-Jun N-terminal kinase": 16.4,
+                "p38 mitogen-activated protein kinases": 49.1,
+                "炎症反应": {
+                    "mean": 32.75,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 88
+            },
+            {
+                "c-Jun N-terminal kinase": 33.4,
+                "p38 mitogen-activated protein kinases": 16.3,
+                "炎症反应": {
+                    "mean": 24.85,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 89
+            },
+            {
+                "c-Jun N-terminal kinase": 2.69,
+                "p38 mitogen-activated protein kinases": 6.1,
+                "炎症反应": {
+                    "mean": 4.395,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 90
+            },
+            {
+                "c-Jun N-terminal kinase": 48.7,
+                "p38 mitogen-activated protein kinases": 54.2,
+                "炎症反应": {
+                    "mean": 51.45,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 91
+            },
+            {
+                "c-Jun N-terminal kinase": 15.4,
+                "p38 mitogen-activated protein kinases": 49.1,
+                "炎症反应": {
+                    "mean": 32.25,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 92
+            },
+            {
+                "c-Jun N-terminal kinase": 36.5,
+                "p38 mitogen-activated protein kinases": 17.2,
+                "炎症反应": {
+                    "mean": 26.85,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 93
+            },
+            {
+                "c-Jun N-terminal kinase": 15.3,
+                "p38 mitogen-activated protein kinases": 89.0,
+                "炎症反应": {
+                    "mean": 52.15,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 94
+            },
+            {
+                "c-Jun N-terminal kinase": 24.6,
+                "p38 mitogen-activated protein kinases": 7.7,
+                "炎症反应": {
+                    "mean": 16.15,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 95
+            },
+            {
+                "c-Jun N-terminal kinase": 39.2,
+                "p38 mitogen-activated protein kinases": 95.6,
+                "炎症反应": {
+                    "mean": 67.4,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 96
+            },
+            {
+                "c-Jun N-terminal kinase": 25.0,
+                "p38 mitogen-activated protein kinases": 93.1,
+                "炎症反应": {
+                    "mean": 59.05,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 97
+            },
+            {
+                "c-Jun N-terminal kinase": 22.7,
+                "p38 mitogen-activated protein kinases": 15.3,
+                "炎症反应": {
+                    "mean": 19.0,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 98
+            },
+            {
+                "c-Jun N-terminal kinase": 21.9,
+                "p38 mitogen-activated protein kinases": 5.42,
+                "炎症反应": {
+                    "mean": 13.66,
+                    "std": 30.0
+                },
+                "炎症反应分布类型": "正态分布",
+                "id": 99
+            }
+        ]
+    }
+]

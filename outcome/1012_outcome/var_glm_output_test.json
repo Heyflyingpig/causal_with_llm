@@ -1,0 +1,4 @@
+{
+    "confounder_name": "Prior Unemployment Duration",
+    "explanation": "The length of time an individual was unemployed before the treatment period affects both treatment assignment (longer unemployment may increase motivation to participate in job training) and employment outcomes (prolonged unemployment can create skill erosion and employer bias, reducing future earnings potential)."
+}

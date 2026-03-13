@@ -1,0 +1,71 @@
+[
+    {
+        "variables": [
+            "c-Jun N-terminal kinase",
+            "p38 mitogen-activated protein kinases"
+        ],
+        "is_confounder": true,
+        "confounder_variables": [
+            "炎症反应",
+            "氧化应激",
+            "细胞应激",
+            "疾病状态",
+            "代谢紊乱"
+        ],
+        "Probability": [
+            {
+                "confounder": "炎症反应",
+                "Distributed": "正态分布"
+            },
+            {
+                "confounder": "氧化应激",
+                "Distributed": "正态分布"
+            },
+            {
+                "confounder": "细胞应激",
+                "Distributed": "分类分布"
+            },
+            {
+                "confounder": "疾病状态",
+                "Distributed": "伯努利分布"
+            },
+            {
+                "confounder": "代谢紊乱",
+                "Distributed": "伯努利分布"
+            }
+        ],
+        "confounder_hypotheses": [
+            {
+                "rank": 1,
+                "confounder": "炎症反应",
+                "reasoning": "炎症因子（如TNF-α、IL-1β）是JNK和p38 MAPK的直接上游激活剂，在炎症性疾病（如类风湿关节炎）中常见，两者通路高度共享，因此炎症反应是最可能的共同原因。",
+                "causal_graph": "炎症反应 -> c-Jun N-terminal kinase; 炎症反应 -> p38 mitogen-activated protein kinases"
+            },
+            {
+                "rank": 2,
+                "confounder": "氧化应激",
+                "reasoning": "活性氧（ROS）可同时激活JNK和p38 MAPK通路，在细胞损伤、衰老或慢性疾病（如动脉粥样硬化）中普遍存在，氧化应激水平与两者激活强度正相关。",
+                "causal_graph": "氧化应激 -> c-Jun N-terminal kinase; 氧化应激 -> p38 mitogen-activated protein kinases"
+            },
+            {
+                "rank": 3,
+                "confounder": "细胞应激",
+                "reasoning": "细胞应激（如热休克、紫外线辐射、DNA损伤）通过共同的应激传感器（如ATM/ATR）激活JNK和p38 MAPK，在急性损伤或慢性应激条件下常见，但类型多样，需分类处理。",
+                "causal_graph": "细胞应激 -> c-Jun N-terminal kinase; 细胞应激 -> p38 mitogen-activated protein kinases"
+            },
+            {
+                "rank": 4,
+                "confounder": "疾病状态",
+                "reasoning": "在癌症或自身免疫疾病中，肿瘤微环境或自身抗体可同时诱导JNK和p38 MAPK激活，但疾病状态通常二值化（患病/未患病），因此可能性低于持续因素如炎症。",
+                "causal_graph": "疾病状态 -> c-Jun N-terminal kinase; 疾病状态 -> p38 mitogen-activated protein kinases"
+            },
+            {
+                "rank": 5,
+                "confounder": "代谢紊乱",
+                "reasoning": "代谢紊乱（如糖尿病）通过高血糖诱导氧化应激和炎症，间接激活JNK和p38 MAPK，但作用间接，且在非代谢相关疾病中不常见，因此可能性最低。",
+                "causal_graph": "代谢紊乱 -> c-Jun N-terminal kinase; 代谢紊乱 -> p38 mitogen-activated protein kinases"
+            }
+        ],
+        "id": 1
+    }
+]

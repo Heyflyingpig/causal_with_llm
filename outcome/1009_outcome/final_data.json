@@ -1,0 +1,613 @@
+[
+    {
+        "variables": [
+            "c-Jun N-terminal kinase",
+            "p38 mitogen-activated protein kinases"
+        ],
+        "confounder_variables": [
+            "炎症反应"
+        ],
+        "data": [
+            {
+                "c-Jun N-terminal kinase": 44.9,
+                "p38 mitogen-activated protein kinases": 40.0,
+                "炎症反应": 74.77920181225588,
+                "id": 0
+            },
+            {
+                "c-Jun N-terminal kinase": 16.5,
+                "p38 mitogen-activated protein kinases": 61.5,
+                "炎症反应": 105.76166361327437,
+                "id": 1
+            },
+            {
+                "c-Jun N-terminal kinase": 31.9,
+                "p38 mitogen-activated protein kinases": 19.5,
+                "炎症反应": 49.1040508419408,
+                "id": 2
+            },
+            {
+                "c-Jun N-terminal kinase": 28.6,
+                "p38 mitogen-activated protein kinases": 23.1,
+                "炎症反应": 16.566128745601482,
+                "id": 3
+            },
+            {
+                "c-Jun N-terminal kinase": 25.7,
+                "p38 mitogen-activated protein kinases": 81.3,
+                "炎症反应": 98.36174267972356,
+                "id": 4
+            },
+            {
+                "c-Jun N-terminal kinase": 49.1,
+                "p38 mitogen-activated protein kinases": 57.8,
+                "炎症反应": 96.07469065899531,
+                "id": 5
+            },
+            {
+                "c-Jun N-terminal kinase": 35.9,
+                "p38 mitogen-activated protein kinases": 18.1,
+                "炎症反应": 77.83157301141068,
+                "id": 6
+            },
+            {
+                "c-Jun N-terminal kinase": 24.4,
+                "p38 mitogen-activated protein kinases": 20.0,
+                "炎症反应": 43.523811620522785,
+                "id": 7
+            },
+            {
+                "c-Jun N-terminal kinase": 61.0,
+                "p38 mitogen-activated protein kinases": 25.3,
+                "炎症反应": 64.3384525076293,
+                "id": 8
+            },
+            {
+                "c-Jun N-terminal kinase": 26.7,
+                "p38 mitogen-activated protein kinases": 101.0,
+                "炎症反应": 30.12323565469675,
+                "id": 9
+            },
+            {
+                "c-Jun N-terminal kinase": 44.9,
+                "p38 mitogen-activated protein kinases": 24.1,
+                "炎症反应": 94.13909419917401,
+                "id": 10
+            },
+            {
+                "c-Jun N-terminal kinase": 71.0,
+                "p38 mitogen-activated protein kinases": 35.5,
+                "炎症反应": 53.897391755805295,
+                "id": 11
+            },
+            {
+                "c-Jun N-terminal kinase": 44.1,
+                "p38 mitogen-activated protein kinases": 118.0,
+                "炎症反应": 30.60091917915247,
+                "id": 12
+            },
+            {
+                "c-Jun N-terminal kinase": 41.4,
+                "p38 mitogen-activated protein kinases": 151.0,
+                "炎症反应": 117.86766356475134,
+                "id": 13
+            },
+            {
+                "c-Jun N-terminal kinase": 19.1,
+                "p38 mitogen-activated protein kinases": 7.91,
+                "炎症反应": 18.461965972902995,
+                "id": 14
+            },
+            {
+                "c-Jun N-terminal kinase": 77.0,
+                "p38 mitogen-activated protein kinases": 1.0,
+                "炎症反应": 52.630482897330225,
+                "id": 15
+            },
+            {
+                "c-Jun N-terminal kinase": 65.5,
+                "p38 mitogen-activated protein kinases": 1.42,
+                "炎症反应": 61.556279819416304,
+                "id": 16
+            },
+            {
+                "c-Jun N-terminal kinase": 30.8,
+                "p38 mitogen-activated protein kinases": 7.64,
+                "炎症反应": -21.071118659973692,
+                "id": 17
+            },
+            {
+                "c-Jun N-terminal kinase": 37.2,
+                "p38 mitogen-activated protein kinases": 17.2,
+                "炎症反应": 65.59939213023381,
+                "id": 18
+            },
+            {
+                "c-Jun N-terminal kinase": 27.4,
+                "p38 mitogen-activated protein kinases": 22.1,
+                "炎症反应": 5.718143241801034,
+                "id": 19
+            },
+            {
+                "c-Jun N-terminal kinase": 28.4,
+                "p38 mitogen-activated protein kinases": 20.9,
+                "炎症反应": 53.76201068594043,
+                "id": 20
+            },
+            {
+                "c-Jun N-terminal kinase": 28.4,
+                "p38 mitogen-activated protein kinases": 12.7,
+                "炎症反应": 38.84293679475235,
+                "id": 21
+            },
+            {
+                "c-Jun N-terminal kinase": 84.3,
+                "p38 mitogen-activated protein kinases": 4.61,
+                "炎症反应": 50.315436592598715,
+                "id": 22
+            },
+            {
+                "c-Jun N-terminal kinase": 93.9,
+                "p38 mitogen-activated protein kinases": 48.3,
+                "炎症反应": 96.37391183822643,
+                "id": 23
+            },
+            {
+                "c-Jun N-terminal kinase": 46.1,
+                "p38 mitogen-activated protein kinases": 17.8,
+                "炎症反应": -47.79025118406544,
+                "id": 24
+            },
+            {
+                "c-Jun N-terminal kinase": 29.2,
+                "p38 mitogen-activated protein kinases": 7.04,
+                "炎症反应": -17.51844740454833,
+                "id": 25
+            },
+            {
+                "c-Jun N-terminal kinase": 23.3,
+                "p38 mitogen-activated protein kinases": 6.98,
+                "炎症反应": 38.90418986455374,
+                "id": 26
+            },
+            {
+                "c-Jun N-terminal kinase": 48.3,
+                "p38 mitogen-activated protein kinases": 59.4,
+                "炎症反应": 60.3190645124677,
+                "id": 27
+            },
+            {
+                "c-Jun N-terminal kinase": 38.9,
+                "p38 mitogen-activated protein kinases": 196.0,
+                "炎症反应": 175.6402286100462,
+                "id": 28
+            },
+            {
+                "c-Jun N-terminal kinase": 41.8,
+                "p38 mitogen-activated protein kinases": 23.1,
+                "炎症反应": -5.716054467151594,
+                "id": 29
+            },
+            {
+                "c-Jun N-terminal kinase": 38.5,
+                "p38 mitogen-activated protein kinases": 20.9,
+                "炎症反应": 28.277631347677538,
+                "id": 30
+            },
+            {
+                "c-Jun N-terminal kinase": 67.9,
+                "p38 mitogen-activated protein kinases": 28.1,
+                "炎症反应": 28.347367106846303,
+                "id": 31
+            },
+            {
+                "c-Jun N-terminal kinase": 40.3,
+                "p38 mitogen-activated protein kinases": 15.3,
+                "炎症反应": -0.9062330180166676,
+                "id": 32
+            },
+            {
+                "c-Jun N-terminal kinase": 59.9,
+                "p38 mitogen-activated protein kinases": 17.9,
+                "炎症反应": 11.501581661917328,
+                "id": 33
+            },
+            {
+                "c-Jun N-terminal kinase": 31.9,
+                "p38 mitogen-activated protein kinases": 20.7,
+                "炎症反应": -2.4640999380372293,
+                "id": 34
+            },
+            {
+                "c-Jun N-terminal kinase": 38.5,
+                "p38 mitogen-activated protein kinases": 20.9,
+                "炎症反应": -16.556546530288205,
+                "id": 35
+            },
+            {
+                "c-Jun N-terminal kinase": 28.9,
+                "p38 mitogen-activated protein kinases": 12.6,
+                "炎症反应": -2.8404592396841615,
+                "id": 36
+            },
+            {
+                "c-Jun N-terminal kinase": 31.3,
+                "p38 mitogen-activated protein kinases": 83.5,
+                "炎症反应": 46.17064663479178,
+                "id": 37
+            },
+            {
+                "c-Jun N-terminal kinase": 80.6,
+                "p38 mitogen-activated protein kinases": 139.0,
+                "炎症反应": 132.36513328622317,
+                "id": 38
+            },
+            {
+                "c-Jun N-terminal kinase": 23.7,
+                "p38 mitogen-activated protein kinases": 13.5,
+                "炎症反应": 34.13303068841691,
+                "id": 39
+            },
+            {
+                "c-Jun N-terminal kinase": 8.98,
+                "p38 mitogen-activated protein kinases": 43.3,
+                "炎症反应": -53.095404304064445,
+                "id": 40
+            },
+            {
+                "c-Jun N-terminal kinase": 37.9,
+                "p38 mitogen-activated protein kinases": 17.8,
+                "炎症反应": -18.092806771865234,
+                "id": 41
+            },
+            {
+                "c-Jun N-terminal kinase": 40.3,
+                "p38 mitogen-activated protein kinases": 221.0,
+                "炎症反应": 153.39346576359955,
+                "id": 42
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 7.7,
+                "炎症反应": 61.901265933146874,
+                "id": 43
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 105.0,
+                "炎症反应": 65.13668491420154,
+                "id": 44
+            },
+            {
+                "c-Jun N-terminal kinase": 48.7,
+                "p38 mitogen-activated protein kinases": 22.5,
+                "炎症反应": 44.93879996403231,
+                "id": 45
+            },
+            {
+                "c-Jun N-terminal kinase": 66.7,
+                "p38 mitogen-activated protein kinases": 40.0,
+                "炎症反应": 39.942739227178876,
+                "id": 46
+            },
+            {
+                "c-Jun N-terminal kinase": 46.1,
+                "p38 mitogen-activated protein kinases": 17.0,
+                "炎症反应": 20.17250399782177,
+                "id": 47
+            },
+            {
+                "c-Jun N-terminal kinase": 32.8,
+                "p38 mitogen-activated protein kinases": 108.0,
+                "炎症反应": 103.18794236496424,
+                "id": 48
+            },
+            {
+                "c-Jun N-terminal kinase": 34.9,
+                "p38 mitogen-activated protein kinases": 6.15,
+                "炎症反应": 7.93745907155601,
+                "id": 49
+            },
+            {
+                "c-Jun N-terminal kinase": 22.7,
+                "p38 mitogen-activated protein kinases": 11.7,
+                "炎症反应": -23.426797669508847,
+                "id": 50
+            },
+            {
+                "c-Jun N-terminal kinase": 26.9,
+                "p38 mitogen-activated protein kinases": 173.0,
+                "炎症反应": 100.33609584551263,
+                "id": 51
+            },
+            {
+                "c-Jun N-terminal kinase": 43.7,
+                "p38 mitogen-activated protein kinases": 10.1,
+                "炎症反应": 1.8231736842708344,
+                "id": 52
+            },
+            {
+                "c-Jun N-terminal kinase": 32.5,
+                "p38 mitogen-activated protein kinases": 10.5,
+                "炎症反应": 15.281525990036073,
+                "id": 53
+            },
+            {
+                "c-Jun N-terminal kinase": 38.2,
+                "p38 mitogen-activated protein kinases": 17.6,
+                "炎症反应": 47.09744833725231,
+                "id": 54
+            },
+            {
+                "c-Jun N-terminal kinase": 121.0,
+                "p38 mitogen-activated protein kinases": 32.5,
+                "炎症反应": 89.02843039293045,
+                "id": 55
+            },
+            {
+                "c-Jun N-terminal kinase": 80.6,
+                "p38 mitogen-activated protein kinases": 71.7,
+                "炎症反应": 62.22066254423221,
+                "id": 56
+            },
+            {
+                "c-Jun N-terminal kinase": 16.7,
+                "p38 mitogen-activated protein kinases": 95.6,
+                "炎症反应": 41.86470441164165,
+                "id": 57
+            },
+            {
+                "c-Jun N-terminal kinase": 23.3,
+                "p38 mitogen-activated protein kinases": 11.9,
+                "炎症反应": -4.84989270524218,
+                "id": 58
+            },
+            {
+                "c-Jun N-terminal kinase": 33.1,
+                "p38 mitogen-activated protein kinases": 17.5,
+                "炎症反应": 24.025569140396012,
+                "id": 59
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 9.39,
+                "炎症反应": 19.70526146891505,
+                "id": 60
+            },
+            {
+                "c-Jun N-terminal kinase": 42.2,
+                "p38 mitogen-activated protein kinases": 20.7,
+                "炎症反应": 45.580201815560265,
+                "id": 61
+            },
+            {
+                "c-Jun N-terminal kinase": 47.4,
+                "p38 mitogen-activated protein kinases": 9.47,
+                "炎症反应": 48.63714871959999,
+                "id": 62
+            },
+            {
+                "c-Jun N-terminal kinase": 59.9,
+                "p38 mitogen-activated protein kinases": 80.6,
+                "炎症反应": 74.06331235996197,
+                "id": 63
+            },
+            {
+                "c-Jun N-terminal kinase": 35.5,
+                "p38 mitogen-activated protein kinases": 12.4,
+                "炎症反应": 9.521255535265853,
+                "id": 64
+            },
+            {
+                "c-Jun N-terminal kinase": 27.1,
+                "p38 mitogen-activated protein kinases": 78.4,
+                "炎症反应": 115.6628001456529,
+                "id": 65
+            },
+            {
+                "c-Jun N-terminal kinase": 42.9,
+                "p38 mitogen-activated protein kinases": 80.6,
+                "炎症反应": 41.85555973281003,
+                "id": 66
+            },
+            {
+                "c-Jun N-terminal kinase": 7.37,
+                "p38 mitogen-activated protein kinases": 3.43,
+                "炎症反应": -51.4145633762198,
+                "id": 67
+            },
+            {
+                "c-Jun N-terminal kinase": 14.9,
+                "p38 mitogen-activated protein kinases": 64.9,
+                "炎症反应": 25.334326793802475,
+                "id": 68
+            },
+            {
+                "c-Jun N-terminal kinase": 24.4,
+                "p38 mitogen-activated protein kinases": 15.4,
+                "炎症反应": 34.34810699493819,
+                "id": 69
+            },
+            {
+                "c-Jun N-terminal kinase": 39.6,
+                "p38 mitogen-activated protein kinases": 75.7,
+                "炎症反应": 98.69301730935425,
+                "id": 70
+            },
+            {
+                "c-Jun N-terminal kinase": 22.3,
+                "p38 mitogen-activated protein kinases": 6.67,
+                "炎症反应": -16.669198680921994,
+                "id": 71
+            },
+            {
+                "c-Jun N-terminal kinase": 19.8,
+                "p38 mitogen-activated protein kinases": 10.4,
+                "炎症反应": 21.066163255634777,
+                "id": 72
+            },
+            {
+                "c-Jun N-terminal kinase": 31.1,
+                "p38 mitogen-activated protein kinases": 27.6,
+                "炎症反应": 37.85976070211776,
+                "id": 73
+            },
+            {
+                "c-Jun N-terminal kinase": 47.8,
+                "p38 mitogen-activated protein kinases": 16.4,
+                "炎症反应": -4.448914194512376,
+                "id": 74
+            },
+            {
+                "c-Jun N-terminal kinase": 48.3,
+                "p38 mitogen-activated protein kinases": 4.66,
+                "炎症反应": 13.42458136053921,
+                "id": 75
+            },
+            {
+                "c-Jun N-terminal kinase": 25.0,
+                "p38 mitogen-activated protein kinases": 91.4,
+                "炎症反应": 43.75670062874394,
+                "id": 76
+            },
+            {
+                "c-Jun N-terminal kinase": 31.1,
+                "p38 mitogen-activated protein kinases": 7.64,
+                "炎症反应": 47.09814898949705,
+                "id": 77
+            },
+            {
+                "c-Jun N-terminal kinase": 22.7,
+                "p38 mitogen-activated protein kinases": 6.85,
+                "炎症反应": -10.508035381222042,
+                "id": 78
+            },
+            {
+                "c-Jun N-terminal kinase": 43.3,
+                "p38 mitogen-activated protein kinases": 20.0,
+                "炎症反应": -30.382795162246133,
+                "id": 79
+            },
+            {
+                "c-Jun N-terminal kinase": 29.4,
+                "p38 mitogen-activated protein kinases": 16.8,
+                "炎症反应": 6.645285074739853,
+                "id": 80
+            },
+            {
+                "c-Jun N-terminal kinase": 31.3,
+                "p38 mitogen-activated protein kinases": 12.0,
+                "炎症反应": 55.88872759005472,
+                "id": 81
+            },
+            {
+                "c-Jun N-terminal kinase": 39.2,
+                "p38 mitogen-activated protein kinases": 15.7,
+                "炎症反应": 37.604408335418256,
+                "id": 82
+            },
+            {
+                "c-Jun N-terminal kinase": 68.5,
+                "p38 mitogen-activated protein kinases": 8.2,
+                "炎症反应": 3.6292482154139236,
+                "id": 83
+            },
+            {
+                "c-Jun N-terminal kinase": 6.98,
+                "p38 mitogen-activated protein kinases": 71.0,
+                "炎症反应": 65.4442669245138,
+                "id": 84
+            },
+            {
+                "c-Jun N-terminal kinase": 20.0,
+                "p38 mitogen-activated protein kinases": 7.91,
+                "炎症反应": 26.6426811025193,
+                "id": 85
+            },
+            {
+                "c-Jun N-terminal kinase": 12.0,
+                "p38 mitogen-activated protein kinases": 9.91,
+                "炎症反应": 25.371402346231207,
+                "id": 86
+            },
+            {
+                "c-Jun N-terminal kinase": 36.2,
+                "p38 mitogen-activated protein kinases": 30.5,
+                "炎症反应": 57.77126729977755,
+                "id": 87
+            },
+            {
+                "c-Jun N-terminal kinase": 16.4,
+                "p38 mitogen-activated protein kinases": 49.1,
+                "炎症反应": 3.985707521595195,
+                "id": 88
+            },
+            {
+                "c-Jun N-terminal kinase": 33.4,
+                "p38 mitogen-activated protein kinases": 16.3,
+                "炎症反应": 24.94732016200504,
+                "id": 89
+            },
+            {
+                "c-Jun N-terminal kinase": 2.69,
+                "p38 mitogen-activated protein kinases": 6.1,
+                "炎症反应": 21.45753643702894,
+                "id": 90
+            },
+            {
+                "c-Jun N-terminal kinase": 48.7,
+                "p38 mitogen-activated protein kinases": 54.2,
+                "炎症反应": 68.46864870834844,
+                "id": 91
+            },
+            {
+                "c-Jun N-terminal kinase": 15.4,
+                "p38 mitogen-activated protein kinases": 49.1,
+                "炎症反应": 69.38613577051194,
+                "id": 92
+            },
+            {
+                "c-Jun N-terminal kinase": 36.5,
+                "p38 mitogen-activated protein kinases": 17.2,
+                "炎症反应": 101.09462194885677,
+                "id": 93
+            },
+            {
+                "c-Jun N-terminal kinase": 15.3,
+                "p38 mitogen-activated protein kinases": 89.0,
+                "炎症反应": 71.89497736371914,
+                "id": 94
+            },
+            {
+                "c-Jun N-terminal kinase": 24.6,
+                "p38 mitogen-activated protein kinases": 7.7,
+                "炎症反应": 45.7295808882856,
+                "id": 95
+            },
+            {
+                "c-Jun N-terminal kinase": 39.2,
+                "p38 mitogen-activated protein kinases": 95.6,
+                "炎症反应": 24.45578214590848,
+                "id": 96
+            },
+            {
+                "c-Jun N-terminal kinase": 25.0,
+                "p38 mitogen-activated protein kinases": 93.1,
+                "炎症反应": 91.71466705737505,
+                "id": 97
+            },
+            {
+                "c-Jun N-terminal kinase": 22.7,
+                "p38 mitogen-activated protein kinases": 15.3,
+                "炎症反应": 29.982611435314432,
+                "id": 98
+            },
+            {
+                "c-Jun N-terminal kinase": 21.9,
+                "p38 mitogen-activated protein kinases": 5.42,
+                "炎症反应": -39.062792465569174,
+                "id": 99
+            }
+        ]
+    }
+]

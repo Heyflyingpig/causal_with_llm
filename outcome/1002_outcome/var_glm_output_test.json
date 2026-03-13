@@ -1,0 +1,60 @@
+[
+    {
+        "variables": [
+            "c-Jun N-terminal kinase",
+            "p38 mitogen-activated protein kinases"
+        ],
+        "is_confounder": true,
+        "confounder_variables": [
+            "Oxidative stress",
+            "Inflammatory response",
+            "Cellular stress",
+            "Metabolic disorder"
+        ],
+        "Probability": [
+            {
+                "confounder": "Oxidative stress",
+                "Distributed": "Normal distribution"
+            },
+            {
+                "confounder": "Inflammatory response",
+                "Distributed": "Normal distribution"
+            },
+            {
+                "confounder": "Cellular stress",
+                "Distributed": "Bernoulli distribution"
+            },
+            {
+                "confounder": "Metabolic disorder",
+                "Distributed": "Bernoulli distribution"
+            }
+        ],
+        "confounder_hypotheses": [
+            {
+                "rank": 1,
+                "confounder": "Inflammatory response",
+                "reasoning": "Inflammatory response is a primary activator of JNK and p38 MAPK pathways, as inflammatory cytokines (e.g., TNF-α) directly trigger these kinases in various diseases like arthritis or sepsis, making it highly prevalent and causally strong.",
+                "causal_graph": "Inflammatory response -> c-Jun N-terminal kinase; Inflammatory response -> p38 mitogen-activated protein kinases"
+            },
+            {
+                "rank": 2,
+                "confounder": "Oxidative stress",
+                "reasoning": "Oxidative stress generates reactive oxygen species (ROS) that activate JNK and p38 MAPK through stress-responsive signaling, commonly observed in conditions such as cardiovascular diseases and neurodegenerative disorders, providing a robust causal link.",
+                "causal_graph": "Oxidative stress -> c-Jun N-terminal kinase; Oxidative stress -> p38 mitogen-activated protein kinases"
+            },
+            {
+                "rank": 3,
+                "confounder": "Cellular stress",
+                "reasoning": "Cellular stress (e.g., heat shock or hypoxia) directly induces JNK and p38 MAPK activation via stress sensors like ASK1, though it is often acute and less pervasive than chronic inflammatory or oxidative conditions.",
+                "causal_graph": "Cellular stress -> c-Jun N-terminal kinase; Cellular stress -> p38 mitogen-activated protein kinases"
+            },
+            {
+                "rank": 4,
+                "confounder": "Metabolic disorder",
+                "reasoning": "Metabolic disorders (e.g., diabetes) cause endoplasmic reticulum stress or inflammation that indirectly activates JNK and p38 MAPK, but this is more disease-specific and less universal than other confounders.",
+                "causal_graph": "Metabolic disorder -> c-Jun N-terminal kinase; Metabolic disorder -> p38 mitogen-activated protein kinases"
+            }
+        ],
+        "id": 1
+    }
+]

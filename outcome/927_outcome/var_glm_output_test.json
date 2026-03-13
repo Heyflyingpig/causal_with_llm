@@ -6,64 +6,53 @@
         ],
         "is_confounder": true,
         "confounder_variables": [
-            "Inflammatory Response",
-            "Cellular Stress",
-            "DNA Damage",
-            "Pathogen Infection",
-            "Metabolic Dysregulation"
+            "炎症反应",
+            "氧化应激",
+            "细胞应激",
+            "癌症"
         ],
         "Probability": [
             {
-                "confounder": "Inflammatory Response",
-                "Distributed": "Normal Distribution"
+                "confounder": "炎症反应",
+                "Distributed": "正态分布"
             },
             {
-                "confounder": "Cellular Stress",
-                "Distributed": "Normal Distribution"
+                "confounder": "氧化应激",
+                "Distributed": "正态分布"
             },
             {
-                "confounder": "DNA Damage",
-                "Distributed": "Normal Distribution"
+                "confounder": "细胞应激",
+                "Distributed": "正态分布"
             },
             {
-                "confounder": "Pathogen Infection",
-                "Distributed": "Bernoulli Distribution"
-            },
-            {
-                "confounder": "Metabolic Dysregulation",
-                "Distributed": "Categorical Distribution"
+                "confounder": "癌症",
+                "Distributed": "伯努利分布"
             }
         ],
         "confounder_hypotheses": [
             {
                 "rank": 1,
-                "confounder": "Inflammatory Response",
-                "reasoning": "Inflammatory cytokines such as TNF-α and IL-1β are common activators of both JNK and p38 MAPK pathways in various inflammatory diseases, making this the most likely confounder due to high prevalence in biomedical contexts.",
-                "causal_graph": "Inflammatory Response -> c-Jun N-terminal kinase; Inflammatory Response -> p38 mitogen-activated protein kinases"
+                "confounder": "炎症反应",
+                "reasoning": "炎症反应是激活JNK和p38 MAPK通路的常见上游信号，例如通过细胞因子如TNF-α或IL-1β，导致两者在炎症性疾病中同时上调。",
+                "causal_graph": "炎症反应 -> c-Jun N-terminal kinase; 炎症反应 -> p38 mitogen-activated protein kinases"
             },
             {
                 "rank": 2,
-                "confounder": "Cellular Stress",
-                "reasoning": "Oxidative stress or heat shock can directly activate upstream MAPK kinases (e.g., MKK4/7 for JNK and MKK3/6 for p38), leading to concurrent activation; this is a frequent trigger in cellular models.",
-                "causal_graph": "Cellular Stress -> c-Jun N-terminal kinase; Cellular Stress -> p38 mitogen-activated protein kinases"
+                "confounder": "氧化应激",
+                "reasoning": "氧化应激通过产生活性氧激活JNK和p38 MAPK，两者都参与细胞对氧化损伤的响应，在代谢性疾病或衰老过程中常见。",
+                "causal_graph": "氧化应激 -> c-Jun N-terminal kinase; 氧化应激 -> p38 mitogen-activated protein kinases"
             },
             {
                 "rank": 3,
-                "confounder": "DNA Damage",
-                "reasoning": "DNA damage sensors (e.g., ATM/ATR) can initiate signaling cascades that involve both JNK and p38, often in cancer or neurodegenerative diseases, but with lower prevalence compared to inflammation.",
-                "causal_graph": "DNA Damage -> c-Jun N-terminal kinase; DNA Damage -> p38 mitogen-activated protein kinases"
+                "confounder": "细胞应激",
+                "reasoning": "细胞应激如热休克或渗透压变化可以激活MAPK通路，包括JNK和p38，作为一般应激响应，在多种病理条件下影响两者。",
+                "causal_graph": "细胞应激 -> c-Jun N-terminal kinase; 细胞应激 -> p38 mitogen-activated protein kinases"
             },
             {
                 "rank": 4,
-                "confounder": "Pathogen Infection",
-                "reasoning": "Infections by bacteria or viruses induce inflammation and stress responses, activating both kinases as part of host defense; however, this is context-specific and less universal than other confounders.",
-                "causal_graph": "Pathogen Infection -> c-Jun N-terminal kinase; Pathogen Infection -> p38 mitogen-activated protein kinases"
-            },
-            {
-                "rank": 5,
-                "confounder": "Metabolic Dysregulation",
-                "reasoning": "Conditions like diabetes or obesity cause chronic inflammation and stress, indirectly activating JNK and p38; this is a secondary confounder with moderate relevance in metabolic diseases.",
-                "causal_graph": "Metabolic Dysregulation -> c-Jun N-terminal kinase; Metabolic Dysregulation -> p38 mitogen-activated protein kinases"
+                "confounder": "癌症",
+                "reasoning": "在癌症中，JNK和p38 MAPK通路经常被异常激活，参与肿瘤进展和耐药性，癌症状态可能通过微环境变化同时影响两者。",
+                "causal_graph": "癌症 -> c-Jun N-terminal kinase; 癌症 -> p38 mitogen-activated protein kinases"
             }
         ],
         "id": 1

@@ -57,8 +57,8 @@ def main():
     """
     主函数，加载包含分布参数的JSON，进行采样，并保存最终的数据集。
     """
-    input_path = 'outcome/927_outcome/data_glm_data_test.json'
-    output_path = 'outcome/927_outcome/final_data.json'
+    input_path = 'outcome/1009_outcome/data_glm_data_test.json'
+    output_path = 'outcome/1009_outcome/final_data.json'
 
     if not os.path.exists(input_path):
         print(f"错误: 输入文件 '{input_path}' 不存在。")
