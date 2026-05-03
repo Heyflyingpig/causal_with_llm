@@ -1,0 +1,4 @@
+{
+    "confounder_name": "Maternal BMI Before Pregnancy",
+    "explanation": "Maternal BMI before pregnancy affects both birth weight and infant mortality. Higher maternal BMI is associated with increased risk of macrosomia (larger birth weight), making it more likely for a twin to be the heavier one. Conversely, both underweight and overweight/obese maternal BMI are associated with increased risks of complications like preeclampsia, gestational diabetes, and preterm birth, which can increase infant mortality. This factor is distinct from existing confounders as it specifically measures the mother's pre-pregnancy weight status rather than age, race, education, or other characteristics already included."
+}
